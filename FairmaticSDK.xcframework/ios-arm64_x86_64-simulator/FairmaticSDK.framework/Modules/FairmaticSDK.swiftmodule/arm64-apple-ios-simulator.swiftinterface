@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FairmaticSDK
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FairmaticSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreData
 import CoreLocation
@@ -12,6 +12,7 @@ import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc(FairmaticError) public enum FairmaticError : Swift.Int {
   case invalidSDKKeyString = 0
   case networkUnreachable = 1
@@ -132,7 +133,7 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
     get
   }
 }
-@available(iOS 11.0, *)
+@available(iOS 13.0, *)
 @objc(FairmaticDelegate) public protocol FairmaticDelegate : ObjectiveC.NSObjectProtocol {
   @objc optional func processStart(ofDrive startInfo: FairmaticSDK.DriveStartInfo)
   @objc optional func processResume(ofDrive resumeInfo: FairmaticSDK.DriveResumeInfo)
@@ -384,7 +385,7 @@ extension FairmaticSDK.FairmaticVehicleTaggingError : Foundation.LocalizedError 
   @objc public func asDictionary() -> [Swift.AnyHashable : Any]
   @objc deinit
 }
-@_inheritsConvenienceInitializers @available(iOS 11.0, *)
+@_inheritsConvenienceInitializers @available(iOS 13.0, *)
 @objc(FairmaticTest) final public class FairmaticTest : ObjectiveC.NSObject {
   @objc public static func raiseMockAccident(_ confidence: FairmaticSDK.AccidentConfidence)
   @objc public static func raiseMockAccident(using config: FairmaticSDK.MockAccidentConfig)
@@ -392,22 +393,22 @@ extension FairmaticSDK.FairmaticVehicleTaggingError : Foundation.LocalizedError 
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc(FairmaticVehicleTagging) public class FairmaticVehicleTagging : ObjectiveC.NSObject {
-  @objc public static func getNearbyBeacons(uuid: Swift.String, major: Swift.Int32, minor: Swift.Int32, completionHandler: @escaping (_ scannedBeacons: [FairmaticSDK.ScannedBeaconInfo], _ error: Swift.Error?) -> Swift.Void)
-  @objc public static func getNearbyBeacons(uuid: Swift.String, completionHandler: @escaping (_ scannedBeacons: [FairmaticSDK.ScannedBeaconInfo], _ error: Swift.Error?) -> Swift.Void)
+  @objc public static func getNearbyBeacons(uuid: Swift.String, major: Swift.Int32, minor: Swift.Int32, completionHandler: @escaping (_ scannedBeacons: [FairmaticSDK.ScannedBeaconInfo], _ error: (any Swift.Error)?) -> Swift.Void)
+  @objc public static func getNearbyBeacons(uuid: Swift.String, completionHandler: @escaping (_ scannedBeacons: [FairmaticSDK.ScannedBeaconInfo], _ error: (any Swift.Error)?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
-public typealias InsuranceAPICompletionHandler = ((Swift.Bool, Swift.Error?) -> Swift.Void)
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 11.0, *)
+public typealias InsuranceAPICompletionHandler = ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @objc(Fairmatic) final public class Fairmatic : ObjectiveC.NSObject {
-  @objc public static func setupWith(configuration: FairmaticSDK.Configuration, delegate: FairmaticSDK.FairmaticDelegate?, completionHandler handler: ((_ success: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)? = nil)
-  @objc public static func setDelegate(_ delegate: FairmaticSDK.FairmaticDelegate?)
+  @objc public static func setupWith(configuration: FairmaticSDK.Configuration, delegate: (any FairmaticSDK.FairmaticDelegate)?, completionHandler handler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc public static func setDelegate(_ delegate: (any FairmaticSDK.FairmaticDelegate)?)
   @objc public static func getDriveDetectionMode() -> FairmaticSDK.DriveDetectionMode
-  @objc public static func setDriveDetectionMode(_ driveDetectionMode: FairmaticSDK.DriveDetectionMode, completionHandler: ((_ success: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)? = nil)
+  @objc public static func setDriveDetectionMode(_ driveDetectionMode: FairmaticSDK.DriveDetectionMode, completionHandler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
   @objc public static func teardown(completionHandler handler: (() -> Swift.Void)? = nil)
-  @objc public static func wipeOut(completion: ((Swift.Error?) -> Swift.Void)?)
-  @objc public static func startManualDrive(trackingId: Swift.String?, completionHandler: ((_ success: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)? = nil)
-  @objc public static func stopManualDrive(completionHandler: ((_ success: Swift.Bool, _ error: Swift.Error?) -> Swift.Void)? = nil)
+  @objc public static func wipeOut(completion: (((any Swift.Error)?) -> Swift.Void)?)
+  @objc public static func startManualDrive(trackingId: Swift.String?, completionHandler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
+  @objc public static func stopManualDrive(completionHandler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
   @objc public static func startSession(_ sessionId: Swift.String)
   @objc public static func stopSession()
   @objc public static func isValidInputParameter(_ input: Swift.String?) -> Swift.Bool
@@ -421,7 +422,7 @@ public typealias InsuranceAPICompletionHandler = ((Swift.Bool, Swift.Error?) -> 
   @objc public static func getEventSupportForDevice() -> Foundation.NSDictionary
   @objc public static func uploadAllDebugDataAndLogs()
   @objc public static func getSettings() -> FairmaticSDK.Settings?
-  @objc public static func logSDKHealth(_ reason: FairmaticSDK.SDKHealthReason, completionHandler: @escaping (Swift.Error?) -> Swift.Void)
+  @objc public static func logSDKHealth(_ reason: FairmaticSDK.SDKHealthReason, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 extension FairmaticSDK.Fairmatic {
