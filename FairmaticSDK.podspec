@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name           = "FairmaticSDK"
-    s.version        = "2.0.0"
+    s.version        = "2.0.1"
     s.summary        = "Fairmatic iOS SDK"
     s.homepage       = "http://www.fairmatic.com"
     s.license        = { :type => "Commercial", :text => "See https://www.fairmatic.com/privacy-policy" }
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
     s.libraries      = "z.1.1.3", "sqlite3", "c++"
     s.requires_arc = true
     s.default_subspec = 'Standard'
+    s.ios.deployment_target = '13.0'
   
     s.subspec 'Standard' do |ss|
       ss.vendored_frameworks = 'FairmaticSDK.xcframework'
