@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
       ss.frameworks     = "Accelerate", "SystemConfiguration", "CoreLocation", "CoreMotion", "CoreTelephony"
       ss.dependency "AWSCore", '>= 2.30.4', '<= 2.33.0'
       ss.dependency "AWSSQS", '>= 2.30.4', '<= 2.33.0'
-      ss.dependency "SQLite.swift", '~>0.13.3'
     end
   end
   
