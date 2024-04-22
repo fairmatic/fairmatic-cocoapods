@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name           = "FairmaticSDK"
-    s.version        = "2.0.0"
+    s.version        = "2.0.1"
     s.summary        = "Fairmatic iOS SDK"
     s.homepage       = "http://www.fairmatic.com"
     s.license        = { :type => "Commercial", :text => "See https://www.fairmatic.com/privacy-policy" }
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
     s.subspec 'Standard' do |ss|
       ss.vendored_frameworks = 'FairmaticSDK.xcframework'
       ss.frameworks     = "Accelerate", "SystemConfiguration", "CoreLocation", "CoreMotion", "CoreTelephony"
-      ss.dependency "AWSCore", '>= 2.30.4', '<= 2.33.0'
-      ss.dependency "AWSSQS", '>= 2.30.4', '<= 2.33.0'
-      ss.dependency "SQLite.swift", '~>0.13.3'
+      ss.dependency "AWSCore", '~>2.34.2'
+      ss.dependency "AWSSQS", '~>2.34.2'
+      ss.dependency "SQLite.swift", '~>0.15.1'
     end
   end
   
