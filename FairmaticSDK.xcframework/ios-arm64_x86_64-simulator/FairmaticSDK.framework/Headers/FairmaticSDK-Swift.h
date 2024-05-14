@@ -1054,7 +1054,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isAccidentDetec
 /// A valid <code>Settings</code> object if the SDK is setup, otherwise nil.
 + (FairmaticSettings * _Nullable)getSettings SWIFT_WARN_UNUSED_RESULT;
 /// Logs all the critical permissions required by the SDK
-/// \param sdkHealthReason indicates the reason for logging SDK Health
+/// \param reason Indicates the reason for logging SDK Health
+///
+/// \param completionHandler The completion handler to be called when the operation completes.
 ///
 + (void)logSDKHealth:(enum FairmaticSDKHealthReason)reason completionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
 @end
@@ -2686,7 +2688,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isAccidentDetec
 /// A valid <code>Settings</code> object if the SDK is setup, otherwise nil.
 + (FairmaticSettings * _Nullable)getSettings SWIFT_WARN_UNUSED_RESULT;
 /// Logs all the critical permissions required by the SDK
-/// \param sdkHealthReason indicates the reason for logging SDK Health
+/// \param reason Indicates the reason for logging SDK Health
+///
+/// \param completionHandler The completion handler to be called when the operation completes.
 ///
 + (void)logSDKHealth:(enum FairmaticSDKHealthReason)reason completionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
 @end
