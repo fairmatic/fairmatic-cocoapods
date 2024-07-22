@@ -1,14 +1,14 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FairmaticSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FairmaticSDK
+import BackgroundTasks
 import CoreData
 import CoreLocation
+import CoreMotion
 @_exported import FairmaticSDK
 import Foundation
 import Network
 import Swift
-import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
@@ -122,6 +122,11 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
   @objc final public let trackingId: Swift.String?
   @objc final public let sessionId: Swift.String?
   @objc deinit
+}
+extension UIKit.UIBackgroundRefreshStatus : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
 }
 @objc(FairmaticSDKHealthReason) public enum SDKHealthReason : Swift.Int {
   case unknown
@@ -415,13 +420,17 @@ public typealias InsuranceAPICompletionHandler = ((Swift.Bool, (any Swift.Error)
   @objc public static var buildVersion: Swift.String {
     @objc get
   }
+  @available(*, deprecated, message: "This method is deprecated as of SDK version 3.0.0. Please use getActiveDriveInfo(completion:) instead.")
   @objc public static func activeDriveInfo() -> FairmaticSDK.ActiveDriveInfo?
+  @objc public static func getActiveDriveInfo(completion: @escaping (FairmaticSDK.ActiveDriveInfo?) -> Swift.Void)
   @objc public static var isAccidentDetectionSupportedByDevice: Swift.Bool {
     @objc get
   }
   @objc public static func getEventSupportForDevice() -> Foundation.NSDictionary
   @objc public static func uploadAllDebugDataAndLogs()
+  @available(*, deprecated, message: "This method is deprecated as of SDK version 3.0.0. Please use getSettings(completionHandler:) instead.")
   @objc public static func getSettings() -> FairmaticSDK.Settings?
+  @objc public static func getSettings(completionHandler: @escaping (FairmaticSDK.Settings?) -> Swift.Void)
   @objc public static func logSDKHealth(_ reason: FairmaticSDK.SDKHealthReason, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
@@ -430,6 +439,7 @@ extension FairmaticSDK.Fairmatic {
   @objc public static func startDriveWithPeriod2(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
   @objc public static func startDriveWithPeriod3(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
   @objc public static func stopPeriod(_ completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
+  @objc public static func registerBackgroundTask() -> Swift.Bool
 }
 extension FairmaticSDK.FairmaticError : Swift.Equatable {}
 extension FairmaticSDK.FairmaticError : Swift.Hashable {}
