@@ -123,11 +123,6 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
   @objc final public let sessionId: Swift.String?
   @objc deinit
 }
-extension UIKit.UIBackgroundRefreshStatus : Swift.CustomStringConvertible {
-  public var description: Swift.String {
-    get
-  }
-}
 @objc(FairmaticSDKHealthReason) public enum SDKHealthReason : Swift.Int {
   case unknown
   case silentPushNotification

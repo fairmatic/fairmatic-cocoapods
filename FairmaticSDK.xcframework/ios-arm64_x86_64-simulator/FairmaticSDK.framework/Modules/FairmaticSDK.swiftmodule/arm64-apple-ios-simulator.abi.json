@@ -16355,123 +16355,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIBackgroundRefreshStatus",
-        "printedName": "UIBackgroundRefreshStatus",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "description",
-            "printedName": "description",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:So25UIBackgroundRefreshStatusV12FairmaticSDKE11descriptionSSvp",
-            "mangledName": "$sSo25UIBackgroundRefreshStatusV12FairmaticSDKE11descriptionSSvp",
-            "moduleName": "FairmaticSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:So25UIBackgroundRefreshStatusV12FairmaticSDKE11descriptionSSvg",
-                "mangledName": "$sSo25UIBackgroundRefreshStatusV12FairmaticSDKE11descriptionSSvg",
-                "moduleName": "FairmaticSDK",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "c:@E@UIBackgroundRefreshStatus",
-        "moduleName": "UIKit",
-        "intro_iOS": "7.0",
-        "objc_name": "UIBackgroundRefreshStatus",
-        "declAttributes": [
-          "Available",
-          "SynthesizedProtocol",
-          "ObjC",
-          "SynthesizedProtocol",
-          "Sendable",
-          "NonSendable",
-          "Dynamic"
-        ],
-        "enumRawTypeName": "Int",
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "NSManagedObjectContext",
         "printedName": "NSManagedObjectContext",
         "declKind": "Class",
@@ -17243,189 +17126,189 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1089,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1112,
+      "offset": 1105,
       "length": 13,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1135,
+      "offset": 1128,
       "length": 12,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1157,
+      "offset": 1150,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1089,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1112,
+      "offset": 1105,
       "length": 13,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1135,
+      "offset": 1128,
       "length": 12,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1157,
+      "offset": 1150,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1089,
       "length": 6,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1112,
+      "offset": 1105,
       "length": 13,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1135,
+      "offset": 1128,
       "length": 12,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1157,
+      "offset": 1150,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1279,
+      "offset": 1272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1292,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1325,
+      "offset": 1318,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1347,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1279,
+      "offset": 1272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1292,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1325,
+      "offset": 1318,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1347,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1251,
+      "offset": 1244,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1279,
+      "offset": 1272,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1292,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1325,
+      "offset": 1318,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PermissionHandling\/Permission.swift",
       "kind": "IntegerLiteral",
-      "offset": 1354,
+      "offset": 1347,
       "length": 1,
       "value": "4"
     },
@@ -18370,56 +18253,56 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 682,
+      "offset": 668,
       "length": 75,
       "value": "\"Error \""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 706,
+      "offset": 692,
       "length": 2,
       "value": "\" in \""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 730,
+      "offset": 716,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 733,
+      "offset": 719,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 742,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 800,
+      "offset": 786,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 791,
       "length": 6,
       "value": "\" -> \""
     },
