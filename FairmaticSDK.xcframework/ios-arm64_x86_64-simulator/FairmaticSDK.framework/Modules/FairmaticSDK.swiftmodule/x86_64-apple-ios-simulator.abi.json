@@ -12913,6 +12913,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FairmaticSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "ZendriveSDK",
         "printedName": "ZendriveSDK",
         "declKind": "Import",
@@ -15072,6 +15082,63 @@
               "Final",
               "AccessControl",
               "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAdditionalDataProviderBlock",
+            "printedName": "setAdditionalDataProviderBlock(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> [Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FairmaticSDK@objc(cs)Fairmatic(cm)setAdditionalDataProviderBlock:",
+            "mangledName": "$s12FairmaticSDK0A0C30setAdditionalDataProviderBlockyySDySSypGycFZ",
+            "moduleName": "FairmaticSDK",
+            "static": true,
+            "deprecated": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "Available",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -17343,7 +17410,7 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2648,
+      "offset": 2702,
       "length": 39,
       "value": "\"com.fairmatic.fairmaticsdk.publicapis\""
     },
@@ -18022,14 +18089,35 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
       "kind": "StringLiteral",
-      "offset": 851,
+      "offset": 827,
+      "length": 14,
+      "value": "\"bluth_denied\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 15,
+      "value": "\"bluth_unknown\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 16,
+      "value": "\"bluth_disabled\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
       "length": 18,
       "value": "\"loc_srv_disabled\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 1247,
       "length": 14,
       "value": "\"low_pwr_mode\""
     },
@@ -18071,14 +18159,35 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
       "kind": "StringLiteral",
-      "offset": 851,
+      "offset": 827,
+      "length": 14,
+      "value": "\"bluth_denied\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 15,
+      "value": "\"bluth_unknown\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
+      "kind": "StringLiteral",
+      "offset": 1041,
+      "length": 16,
+      "value": "\"bluth_disabled\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
+      "kind": "StringLiteral",
+      "offset": 1160,
       "length": 18,
       "value": "\"loc_srv_disabled\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Models\/SetupIssue.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 1247,
       "length": 14,
       "value": "\"low_pwr_mode\""
     },
@@ -18305,6 +18414,13 @@
       "offset": 791,
       "length": 6,
       "value": "\" -> \""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/AdditionalDataManager.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 20,
+      "value": "\"fmApp__setupIssues\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
@@ -18554,14 +18670,14 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicInterfaces\/Fairmatic.swift",
       "kind": "StringLiteral",
-      "offset": 1737,
+      "offset": 1942,
       "length": 7,
       "value": "\"3.0.0\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicInterfaces\/Fairmatic.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2382,
       "length": 36,
       "value": "\"com.fairmatic.sdk.bgprocessingtask\""
     }

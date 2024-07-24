@@ -399,9 +399,12 @@ extension FairmaticSDK.FairmaticVehicleTaggingError : Foundation.LocalizedError 
   @objc deinit
 }
 public typealias InsuranceAPICompletionHandler = ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)
+public typealias AdditionalDataProviderBlock = () -> [Swift.String : Any]
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @objc(Fairmatic) final public class Fairmatic : ObjectiveC.NSObject {
   @objc public static func setupWith(configuration: FairmaticSDK.Configuration, delegate: (any FairmaticSDK.FairmaticDelegate)?, completionHandler handler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
+  @available(*, deprecated, message: "This method is deprecated as of SDK version 3.0.0.")
+  @objc public static func setAdditionalDataProviderBlock(_ block: @escaping FairmaticSDK.AdditionalDataProviderBlock)
   @objc public static func setDelegate(_ delegate: (any FairmaticSDK.FairmaticDelegate)?)
   @objc public static func getDriveDetectionMode() -> FairmaticSDK.DriveDetectionMode
   @objc public static func setDriveDetectionMode(_ driveDetectionMode: FairmaticSDK.DriveDetectionMode, completionHandler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)

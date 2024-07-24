@@ -905,6 +905,10 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// would be invoked on the main thread. Can be nil.
 ///
 + (void)setupWithConfiguration:(FairmaticConfiguration * _Nonnull)configuration delegate:(id <FairmaticDelegate> _Nullable)delegate completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))handler;
+/// Set the additional data provider block for the Fairmatic SDK.
+/// \param block The block which returns key value pairs. These key value pairs represent the additional metadata to be provided to the Fairmatic SDK
+///
++ (void)setAdditionalDataProviderBlock:(NSDictionary<NSString *, id> * _Nonnull (^ _Nonnull)(void))block SWIFT_DEPRECATED_MSG("This method is deprecated as of SDK version 3.0.0.");
 /// Set delegate to receive callbacks for various events from Fairmatic SDK.
 /// See <code>FairmaticDelegate</code> for further details.
 /// Calling this if Fairmatic is not setup is a no-op. See <code>setupWith(configuration:delegate:completionHandler:)</code> for further details.
