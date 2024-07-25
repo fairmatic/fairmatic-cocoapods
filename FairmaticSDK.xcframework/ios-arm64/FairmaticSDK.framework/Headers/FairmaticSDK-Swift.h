@@ -1138,15 +1138,21 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isAccidentDetec
 ///
 + (void)stopPeriod:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 /// Register the background tasks of the Fairmatic SDK
-/// This method should be called in the <code>AppDelegate</code>’s <code>application(_:didFinishLaunchingWithOptions:)</code> method before the <code>setupWith(configuration:delegate:completionHandler:)</code> method of the SDK is called.
+/// This method should be called in the <code>AppDelegate</code>‘s <code>application(_:didFinishLaunchingWithOptions:)</code> method before the <code>setupWith(configuration:delegate:completionHandler:)</code> method of the SDK is called.
 /// This method helps the SDK to register the background tasks required for the SDK to function properly and improves reliability of trip data.
+/// Make sure you include the values of strings <code>"com.fairmatic.sdk.bgprocessingtask"</code> and <code>"com.fairmatic.sdk.bgrefreshtask"</code>  in the <code>BGTaskSchedulerPermittedIdentifiers</code> in the <code>Info.plist</code> of your app and select   “<em>Background fetch</em>” and “<em>Background processing</em>” in the “<em>Background Modes</em>” section of the “Signing & Capabilities” tab in your app’s target settings.
+/// Sample entry in Info.plist:
+/// \code
+/// <key>BGTaskSchedulerPermittedIdentifiers</key>
+///    <array>
+///    <string>com.fairmatic.sdk.bgprocessingtask</string>
+///    <string>com.fairmatic.sdk.bgrefreshtask</string>
+///   </array>
+///
+/// \endcodeWhen invoked on a simulator, this method is a NO-OP
 /// note:
 /// As background tasks cannot be registered in the simulator, this method should be called only when the app is running on a real device. This method will be a NO-OP if called on simulators. The SDK makes a request to the iOS to run this task only when the device is connected to an external power source and has a good network connection, hence it has minimal to NO impact on the device’s battery.
-///
-/// returns:
-/// A boolean indicating whether the background task registration was successful or not. <code>true</code> if the launch task was registered, <code>false</code> if the identifier isn’t included in the <code>BGTaskSchedulerPermittedIdentifiers</code> in the  <code>Info.plist</code>.
-/// When invoked on a simulator, this method <em>always</em> returns <code>false</code>
-+ (BOOL)registerBackgroundTask SWIFT_WARN_UNUSED_RESULT;
++ (void)registerBackgroundTasks;
 @end
 
 

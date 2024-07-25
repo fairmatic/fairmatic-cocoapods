@@ -16324,19 +16324,18 @@
           },
           {
             "kind": "Function",
-            "name": "registerBackgroundTask",
-            "printedName": "registerBackgroundTask()",
+            "name": "registerBackgroundTasks",
+            "printedName": "registerBackgroundTasks()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)registerBackgroundTask",
-            "mangledName": "$s12FairmaticSDK0A0C22registerBackgroundTaskSbyFZ",
+            "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)registerBackgroundTasks",
+            "mangledName": "$s12FairmaticSDK0A0C23registerBackgroundTasksyyFZ",
             "moduleName": "FairmaticSDK",
             "static": true,
             "declAttributes": [
@@ -16993,6 +16992,20 @@
       "offset": 204,
       "length": 14,
       "value": "\"FairmaticSDK.DriveStartInfo\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/BackgroundProcessingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 36,
+      "value": "\"com.fairmatic.sdk.bgprocessingtask\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/BackgroundProcessingManager.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 33,
+      "value": "\"com.fairmatic.sdk.bgrefreshtask\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Repositories\/SDKSetupRepository.swift",
@@ -18673,13 +18686,6 @@
       "offset": 1942,
       "length": 7,
       "value": "\"3.0.0\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicInterfaces\/Fairmatic.swift",
-      "kind": "StringLiteral",
-      "offset": 2382,
-      "length": 36,
-      "value": "\"com.fairmatic.sdk.bgprocessingtask\""
     }
   ]
 }

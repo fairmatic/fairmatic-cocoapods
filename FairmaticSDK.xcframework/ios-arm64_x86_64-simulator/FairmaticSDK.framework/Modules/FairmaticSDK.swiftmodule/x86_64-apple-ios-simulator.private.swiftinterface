@@ -437,7 +437,7 @@ extension FairmaticSDK.Fairmatic {
   @objc public static func startDriveWithPeriod2(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
   @objc public static func startDriveWithPeriod3(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
   @objc public static func stopPeriod(_ completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
-  @objc public static func registerBackgroundTask() -> Swift.Bool
+  @objc public static func registerBackgroundTasks()
 }
 extension FairmaticSDK.FairmaticError : Swift.Equatable {}
 extension FairmaticSDK.FairmaticError : Swift.Hashable {}
