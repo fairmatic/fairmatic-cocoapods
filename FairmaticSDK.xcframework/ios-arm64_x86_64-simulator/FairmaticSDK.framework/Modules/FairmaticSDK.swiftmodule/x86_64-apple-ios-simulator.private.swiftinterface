@@ -430,6 +430,7 @@ public typealias AdditionalDataProviderBlock = () -> [Swift.String : Any]
   @objc public static func getSettings() -> FairmaticSDK.Settings?
   @objc public static func getSettings(completionHandler: @escaping (FairmaticSDK.Settings?) -> Swift.Void)
   @objc public static func logSDKHealth(_ reason: FairmaticSDK.SDKHealthReason, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public static func registerBackgroundTasks()
   @objc deinit
 }
 extension FairmaticSDK.Fairmatic {
@@ -437,7 +438,6 @@ extension FairmaticSDK.Fairmatic {
   @objc public static func startDriveWithPeriod2(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
   @objc public static func startDriveWithPeriod3(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
   @objc public static func stopPeriod(_ completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
-  @objc public static func registerBackgroundTasks()
 }
 extension FairmaticSDK.FairmaticError : Swift.Equatable {}
 extension FairmaticSDK.FairmaticError : Swift.Hashable {}

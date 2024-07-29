@@ -7646,16 +7646,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "FairmaticSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
@@ -16024,6 +16014,30 @@
           },
           {
             "kind": "Function",
+            "name": "registerBackgroundTasks",
+            "printedName": "registerBackgroundTasks()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FairmaticSDK@objc(cs)Fairmatic(cm)registerBackgroundTasks",
+            "mangledName": "$s12FairmaticSDK0A0C23registerBackgroundTasksyyFZ",
+            "moduleName": "FairmaticSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "startDriveWithPeriod1",
             "printedName": "startDriveWithPeriod1(_:)",
             "children": [
@@ -16311,31 +16325,6 @@
             "declKind": "Func",
             "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)stopPeriod:",
             "mangledName": "$s12FairmaticSDK0A0C10stopPeriodyyySb_s5Error_pSgtcSgFZ",
-            "moduleName": "FairmaticSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "registerBackgroundTasks",
-            "printedName": "registerBackgroundTasks()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)registerBackgroundTasks",
-            "mangledName": "$s12FairmaticSDK0A0C23registerBackgroundTasksyyFZ",
             "moduleName": "FairmaticSDK",
             "static": true,
             "declAttributes": [
