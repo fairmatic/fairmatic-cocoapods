@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "FairmaticSDK",
+    "printedName": "FairmaticSDK",
     "children": [
       {
         "kind": "Import",
@@ -889,6 +889,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1198,6 +1212,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1450,6 +1478,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2000,6 +2042,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2237,6 +2293,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2762,6 +2832,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3128,6 +3212,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3263,6 +3361,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3805,6 +3917,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4142,6 +4268,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4435,6 +4575,22 @@
           "ObjC",
           "Available",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4572,6 +4728,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4861,6 +5031,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5113,6 +5297,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5411,6 +5609,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5621,6 +5833,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6672,6 +6898,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6891,6 +7131,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7441,6 +7695,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7869,6 +8137,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8249,6 +8531,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8554,6 +8850,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9148,6 +9458,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9250,6 +9574,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9340,6 +9678,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -9545,6 +9897,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -9680,6 +10046,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -10328,6 +10708,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10615,6 +11009,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10867,6 +11275,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11163,6 +11585,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11903,6 +12339,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12498,6 +12948,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -13415,6 +13879,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -13700,6 +14178,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14008,6 +14500,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14261,6 +14767,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14568,6 +15088,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -15823,6 +16357,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15894,6 +16442,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16062,118 +16624,6 @@
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1274,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1536,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1640,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1728,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1805,
-      "length": 3,
-      "value": "101"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1861,
-      "length": 3,
-      "value": "102"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2032,
-      "length": 3,
-      "value": "103"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2366,
-      "length": 3,
-      "value": "104"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2617,
-      "length": 3,
-      "value": "105"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2837,
-      "length": 3,
-      "value": "106"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2960,
-      "length": 3,
-      "value": "107"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3050,
-      "length": 3,
-      "value": "111"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3178,
-      "length": 3,
-      "value": "112"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3371,
-      "length": 4,
-      "value": "1002"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3671,
-      "length": 4,
-      "value": "1003"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3993,
-      "length": 4,
-      "value": "1004"
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
@@ -16185,34 +16635,6 @@
       "kind": "IntegerLiteral",
       "offset": 470,
       "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 417,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 470,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1528,
-      "length": 4,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1609,
-      "length": 5,
       "value": "2"
     },
     {
@@ -16291,83 +16713,6 @@
       "offset": 3654,
       "length": 18,
       "value": "9"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2626,
-      "length": 22,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2742,
-      "length": 13,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2909,
-      "length": 12,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3111,
-      "length": 8,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3193,
-      "length": 8,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3310,
-      "length": 22,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3415,
-      "length": 17,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3527,
-      "length": 18,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3654,
-      "length": 18,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 5588,
-      "length": 12,
-      "value": "\"FairmaticSDK.SpeedingData\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 6982,
-      "length": 5,
-      "value": "\"FairmaticSDK.Event\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
@@ -16410,69 +16755,6 @@
       "offset": 1129,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 420,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1052,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1129,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "StringLiteral",
-      "offset": 2544,
-      "length": 13,
-      "value": "\"FairmaticSDK.SettingsError\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveStartInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 14,
-      "value": "\"FairmaticSDK.DriveStartInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/SDKSetupRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 983,
-      "length": 14,
-      "value": "\"setupRequest\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/SDKSetupRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1033,
-      "length": 15,
-      "value": "\"setupResponse\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/SDKSetupRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1083,
-      "length": 17,
-      "value": "\"previousSetupTs\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/SDKSetupRepository.swift",
@@ -16538,27 +16820,6 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMHealthReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 567,
-      "length": 22,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMHealthReason.swift",
-      "kind": "IntegerLiteral",
-      "offset": 699,
-      "length": 20,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 262,
-      "length": 8,
-      "value": "\"FairmaticSDK.Settings\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1007,
@@ -16570,34 +16831,6 @@
       "kind": "IntegerLiteral",
       "offset": 1379,
       "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1007,
-      "length": 10,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1379,
-      "length": 5,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2439,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2649,
-      "length": 11,
       "value": "2"
     },
     {
@@ -16638,51 +16871,9 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
       "kind": "IntegerLiteral",
-      "offset": 3830,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3993,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4156,
-      "length": 7,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
       "offset": 5356,
       "length": 5,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5356,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 6077,
-      "length": 9,
-      "value": "\"FairmaticSDK.DriveInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMExtrapolationDetails.swift",
-      "kind": "StringLiteral",
-      "offset": 219,
-      "length": 20,
-      "value": "\"FairmaticSDK.ExtrapolationDetails\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKFactory.swift",
@@ -16711,34 +16902,6 @@
       "offset": 2274,
       "length": 39,
       "value": "\"com.fairmatic.fairmaticsdk.publicapis\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMActiveDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 212,
-      "length": 15,
-      "value": "\"FairmaticSDK.ActiveDriveInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 580,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 730,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 889,
-      "length": 4,
-      "value": "1000"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
@@ -16776,41 +16939,6 @@
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMLocationPoint.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 13,
-      "value": "\"FairmaticSDK.LocationPoint\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 405,
-      "length": 26,
-      "value": "\"refresh_frequency_millis\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 11,
-      "value": "\"user_info\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 495,
-      "length": 14,
-      "value": "\"company_info\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 544,
-      "length": 21,
-      "value": "\"telematics_provider\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
       "kind": "StringLiteral",
       "offset": 405,
@@ -16862,51 +16990,9 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
       "kind": "StringLiteral",
-      "offset": 1148,
-      "length": 12,
-      "value": "\"fm_sdk_key\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1188,
-      "length": 14,
-      "value": "\"company_name\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
-      "length": 10,
-      "value": "\"fleet_id\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
       "offset": 1640,
       "length": 10,
       "value": "\"zendrive\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1640,
-      "length": 10,
-      "value": "\"zendrive\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1974,
-      "length": 9,
-      "value": "\"sdk_key\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2021,
-      "length": 16,
-      "value": "\"application_id\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
@@ -16958,41 +17044,6 @@
       "value": "\"login_token\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2707,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2737,
-      "length": 12,
-      "value": "\"first_name\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2774,
-      "length": 11,
-      "value": "\"last_name\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2832,
-      "length": 14,
-      "value": "\"phone_number\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
-      "kind": "StringLiteral",
-      "offset": 2873,
-      "length": 13,
-      "value": "\"login_token\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 865,
@@ -17005,48 +17056,6 @@
       "offset": 1413,
       "length": 9,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 865,
-      "length": 7,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1413,
-      "length": 9,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2315,
-      "length": 13,
-      "value": "\"FairmaticSDK.Configuration\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAnalyzedDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 17,
-      "value": "\"FairmaticSDK.AnalyzedDriveInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEstimatedDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 886,
-      "length": 18,
-      "value": "\"FairmaticSDK.EstimatedDriveInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMTripWarning.swift",
-      "kind": "StringLiteral",
-      "offset": 1287,
-      "length": 11,
-      "value": "\"FairmaticSDK.TripWarning\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
@@ -17077,13 +17086,6 @@
       "value": "60"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveResumeInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 438,
-      "length": 15,
-      "value": "\"FairmaticSDK.DriveResumeInfo\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 586,
@@ -17095,34 +17097,6 @@
       "kind": "IntegerLiteral",
       "offset": 736,
       "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 586,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 736,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1695,
-      "length": 3,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1742,
-      "length": 4,
       "value": "2"
     },
     {
@@ -17159,41 +17133,6 @@
       "offset": 2867,
       "length": 9,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2741,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2802,
-      "length": 4,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2867,
-      "length": 9,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3848,
-      "length": 12,
-      "value": "\"FairmaticSDK.AccidentInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/ErrorPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 734,
-      "length": 12,
-      "value": "\"error_code\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/ErrorPayload.swift",
@@ -17294,13 +17233,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 533,
-      "length": 17,
-      "value": "\"FairmaticSDK.DatabaseContainer\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Endpoints\/Endpoint.swift",
       "kind": "StringLiteral",
       "offset": 616,
@@ -17334,48 +17266,6 @@
       "offset": 709,
       "length": 8,
       "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Endpoints\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 616,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Endpoints\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 638,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Endpoints\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 660,
-      "length": 5,
-      "value": "\"PUT\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Endpoints\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 683,
-      "length": 7,
-      "value": "\"PATCH\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Endpoints\/Endpoint.swift",
-      "kind": "StringLiteral",
-      "offset": 709,
-      "length": 8,
-      "value": "\"DELETE\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMScannedBeaconInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 315,
-      "length": 17,
-      "value": "\"FairmaticSDK.ScannedBeaconInfo\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
@@ -17434,6 +17324,20 @@
       "value": "\" -> \""
     },
     {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
       "kind": "IntegerLiteral",
       "offset": 570,
@@ -17453,83 +17357,6 @@
       "offset": 711,
       "length": 2,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 570,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 640,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 711,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1044,
-      "length": 12,
-      "value": "\"fm_sdk_key\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1081,
-      "length": 11,
-      "value": "\"driver_id\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1124,
-      "length": 19,
-      "value": "\"sdk_build_version\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1167,
-      "length": 10,
-      "value": "\"app_info\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1241,
-      "length": 7,
-      "value": "\"email\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1282,
-      "length": 14,
-      "value": "\"phone_number\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1323,
-      "length": 6,
-      "value": "\"name\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
@@ -17607,13 +17434,6 @@
       "offset": 645,
       "length": 7,
       "value": "\"Phone\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriverAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 1325,
-      "length": 16,
-      "value": "\"FairmaticSDK.DriverAttributes\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/DeviceIDGenerator.swift",
