@@ -1,0 +1,11 @@
+framework module FairmaticSDK {
+  umbrella header "Fairmatic.h"
+
+  export *
+  module * { export * }
+}
+
+module FairmaticSDK.Swift {
+  header "FairmaticSDK-Swift.h"
+  requires objc
+}
