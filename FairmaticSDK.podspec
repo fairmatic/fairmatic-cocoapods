@@ -14,11 +14,10 @@ Pod::Spec.new do |s|
     s.default_subspec = 'Standard'
   
     s.subspec 'Standard' do |ss|
-      ss.vendored_frameworks = 'FairmaticSDK.xcframework'
+      ss.vendored_frameworks = 'FairmaticSDK.xcframework', 'SQLite.xcframework'
       ss.frameworks     = "Accelerate", "SystemConfiguration", "CoreLocation", "CoreMotion", "CoreTelephony"
       ss.dependency "AWSCore", '~>2.34.2'
       ss.dependency "AWSSQS", '~>2.34.2'
-      ss.dependency "SQLite.swift", '~>0.15.3'
     end
   end
   
