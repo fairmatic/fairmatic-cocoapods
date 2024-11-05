@@ -14388,7 +14388,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([FairmaticSDK.ScannedBeaconInfo], Swift.Error?) -> ()",
+                "printedName": "([FairmaticSDK.ScannedBeaconInfo], (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14398,7 +14398,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([FairmaticSDK.ScannedBeaconInfo], Swift.Error?)",
+                    "printedName": "([FairmaticSDK.ScannedBeaconInfo], (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14417,12 +14417,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -14466,7 +14466,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "([FairmaticSDK.ScannedBeaconInfo], Swift.Error?) -> ()",
+                "printedName": "([FairmaticSDK.ScannedBeaconInfo], (any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14476,7 +14476,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "([FairmaticSDK.ScannedBeaconInfo], Swift.Error?)",
+                    "printedName": "([FairmaticSDK.ScannedBeaconInfo], (any Swift.Error)?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14495,12 +14495,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -14653,12 +14653,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FairmaticSDK.FairmaticDelegate?",
+                "printedName": "(any FairmaticSDK.FairmaticDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "FairmaticDelegate",
-                    "printedName": "FairmaticSDK.FairmaticDelegate",
+                    "printedName": "any FairmaticSDK.FairmaticDelegate",
                     "usr": "c:@M@FairmaticSDK@objc(pl)FairmaticDelegate"
                   }
                 ],
@@ -14667,12 +14667,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14682,7 +14682,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -14693,12 +14693,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -14740,12 +14740,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "FairmaticSDK.FairmaticDelegate?",
+                "printedName": "(any FairmaticSDK.FairmaticDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "FairmaticDelegate",
-                    "printedName": "FairmaticSDK.FairmaticDelegate",
+                    "printedName": "any FairmaticSDK.FairmaticDelegate",
                     "usr": "c:@M@FairmaticSDK@objc(pl)FairmaticDelegate"
                   }
                 ],
@@ -14809,12 +14809,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14824,7 +14824,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -14835,12 +14835,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -14932,12 +14932,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error?) -> ())?",
+                "printedName": "(((any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error?) -> ()",
+                    "printedName": "((any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14947,12 +14947,12 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
-                        "printedName": "Swift.Error?",
+                        "printedName": "(any Swift.Error)?",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ],
@@ -15005,12 +15005,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15020,7 +15020,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15031,12 +15031,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -15078,12 +15078,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15093,7 +15093,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15104,12 +15104,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -15463,7 +15463,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error?) -> ()",
+                "printedName": "((any Swift.Error)?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -15473,12 +15473,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Error?",
+                    "printedName": "(any Swift.Error)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ],
@@ -15513,12 +15513,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15528,7 +15528,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15539,12 +15539,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -15591,12 +15591,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15606,7 +15606,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15617,12 +15617,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -15669,12 +15669,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15684,7 +15684,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15695,12 +15695,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -15741,12 +15741,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Bool, Swift.Error?) -> ())?",
+                "printedName": "((Swift.Bool, (any Swift.Error)?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Bool, Swift.Error?) -> ()",
+                    "printedName": "(Swift.Bool, (any Swift.Error)?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -15756,7 +15756,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(Swift.Bool, Swift.Error?)",
+                        "printedName": "(Swift.Bool, (any Swift.Error)?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -15767,12 +15767,12 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Optional",
-                            "printedName": "Swift.Error?",
+                            "printedName": "(any Swift.Error)?",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Error",
-                                "printedName": "Swift.Error",
+                                "printedName": "any Swift.Error",
                                 "usr": "s:s5ErrorP"
                               }
                             ],
@@ -16174,139 +16174,6 @@
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7130,
-      "length": 54,
-      "value": "\"Unknown error from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7160,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7183,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7403,
-      "length": 21,
-      "value": "\"Not a valid SDK key\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7478,
-      "length": 23,
-      "value": "\"Network not reachable\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7557,
-      "length": 37,
-      "value": "\"Device OS version lower than iOS 11\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7647,
-      "length": 25,
-      "value": "\"Device is not supported\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7721,
-      "length": 49,
-      "value": "\"Invalid character set found in input parameters\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7821,
-      "length": 47,
-      "value": "\"Internal error. Please setup Fairmatic again.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 7912,
-      "length": 35,
-      "value": "\"API called before Fairmatic Setup\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8002,
-      "length": 40,
-      "value": "\"Period hasn't changed, Action ignored.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8095,
-      "length": 194,
-      "value": "\"trackingId is invalid. Refer\nto documentation for method isValidInputParameter: to\nview the list of disallowed characters. Action ignored.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8336,
-      "length": 45,
-      "value": "\"SDK not torn down. Teardown SDK to continue\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8424,
-      "length": 36,
-      "value": "\"Some unknown I\/O error has occured\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8513,
-      "length": 80,
-      "value": "\"User is not allowed to use this application. Please contact Fairmatic support.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8651,
-      "length": 48,
-      "value": "\"Motorcycle feature is currently not supported.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8757,
-      "length": 74,
-      "value": "\"Fleet size is exceeding the set limit. Please contact Fairmatic support.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8880,
-      "length": 49,
-      "value": "\"Driver with specified driverId has been deleted\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
-      "kind": "StringLiteral",
-      "offset": 8982,
-      "length": 29,
-      "value": "\"Driver name cannot be empty\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 417,
@@ -16336,27 +16203,6 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1056,
-      "length": 63,
-      "value": "\"Unknown event severity from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1095,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1118,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
       "kind": "IntegerLiteral",
       "offset": 1528,
       "length": 4,
@@ -16382,27 +16228,6 @@
       "offset": 1609,
       "length": 5,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2236,
-      "length": 63,
-      "value": "\"Unknown turn direction from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2275,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 2298,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
@@ -16529,27 +16354,6 @@
       "offset": 3654,
       "length": 18,
       "value": "9"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 5292,
-      "length": 59,
-      "value": "\"Unknown event type from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 5327,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 5350,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
@@ -16566,62 +16370,6 @@
       "value": "\"FairmaticSDK.Event\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMEvent.swift",
-      "kind": "Array",
-      "offset": 9370,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 558,
-      "length": 6,
-      "value": "\"🚨\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKLogger.swift",
-      "kind": "StringLiteral",
-      "offset": 613,
-      "length": 6,
-      "value": "\"🔧\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Extensions\/Date+Extensions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 290,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Extensions\/Date+Extensions.swift",
-      "kind": "IntegerLiteral",
-      "offset": 769,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 10,
-      "value": "\"Cellular\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 724,
-      "length": 6,
-      "value": "\"WiFi\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 769,
-      "length": 15,
-      "value": "\"No Connection\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1527,
@@ -16636,125 +16384,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2191,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 2311,
-      "length": 41,
-      "value": "\"com.fairmatic.fairmaticsdk.reachability\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4765,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 5848,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6445,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6517,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 6729,
-      "length": 19,
-      "value": "\"unavailable flags\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 9690,
-      "length": 6,
-      "value": "\"WWAN\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 9744,
-      "length": 11,
-      "value": "\"Reachable\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 9812,
-      "length": 10,
-      "value": "\"Required\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 9880,
-      "length": 11,
-      "value": "\"Transient\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 9950,
-      "length": 22,
-      "value": "\"InterventionRequired\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 10030,
-      "length": 21,
-      "value": "\"ConnectionOnTraffic\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 10108,
-      "length": 20,
-      "value": "\"ConnectionOnDemand\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 10179,
-      "length": 14,
-      "value": "\"LocalAddress\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 10238,
-      "length": 8,
-      "value": "\"Direct\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
-      "kind": "StringLiteral",
-      "offset": 10292,
-      "length": 3,
-      "value": "\" \""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
       "kind": "IntegerLiteral",
       "offset": 420,
@@ -16809,27 +16438,6 @@
       "offset": 1129,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "StringLiteral",
-      "offset": 2230,
-      "length": 68,
-      "value": "\"Unknown settings error type from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "StringLiteral",
-      "offset": 2274,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
-      "kind": "StringLiteral",
-      "offset": 2297,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
@@ -16844,13 +16452,6 @@
       "offset": 204,
       "length": 14,
       "value": "\"FairmaticSDK.DriveStartInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/RawJSON\/RawJSON.swift",
-      "kind": "StringLiteral",
-      "offset": 1591,
-      "length": 52,
-      "value": "\"Could not find reasonable type to map to JSONValue\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/SDKSetupRepository.swift",
@@ -16923,146 +16524,6 @@
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 2638,
-      "length": 57,
-      "value": "\"URL can't be created using components: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 2694,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 3605,
-      "length": 75,
-      "value": "\"Data is not a valid JSON: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 3673,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 3679,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4195,
-      "length": 73,
-      "value": "\"Skipping encoding data for key:`\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4234,
-      "length": 1,
-      "value": "\"` because it's not a valid JSON: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4299,
-      "length": 87,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4341,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4347,
-      "length": 1,
-      "value": "\", error: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4385,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4674,
-      "length": 32,
-      "value": "\"Request URL must not be `nil`.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4902,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 4957,
-      "length": 53,
-      "value": "\"Can't create `URLComponents` from the url: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 5008,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "Array",
-      "offset": 5080,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 5462,
-      "length": 3,
-      "value": "\"+\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 5473,
-      "length": 5,
-      "value": "\"%2B\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 5571,
-      "length": 65,
-      "value": "\"Can't create a new `URL` after appending query items: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Encoding\/RequestEncoder.swift",
-      "kind": "StringLiteral",
-      "offset": 5634,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMHealthReason.swift",
       "kind": "IntegerLiteral",
       "offset": 567,
@@ -17127,27 +16588,6 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1986,
-      "length": 59,
-      "value": "\"Unknown drive type from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2021,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2044,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 2439,
       "length": 9,
@@ -17173,27 +16613,6 @@
       "offset": 2649,
       "length": 11,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3272,
-      "length": 58,
-      "value": "\"Unknown user mode from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3306,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3329,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
@@ -17239,27 +16658,6 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4903,
-      "length": 55,
-      "value": "\"Unknown period from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4934,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4957,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 5356,
       "length": 5,
@@ -17271,27 +16669,6 @@
       "offset": 5356,
       "length": 5,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 5873,
-      "length": 63,
-      "value": "\"Unknown phone position from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 5912,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 5935,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriveInfo.swift",
@@ -17336,20 +16713,6 @@
       "value": "\"com.fairmatic.fairmaticsdk.publicapis\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveImplementations\/FairmaticZendriveImplementation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7002,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveImplementations\/FairmaticZendriveImplementation.swift",
-      "kind": "Dictionary",
-      "offset": 7315,
-      "length": 3,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMActiveDriveInfo.swift",
       "kind": "StringLiteral",
       "offset": 212,
@@ -17357,307 +16720,6 @@
       "value": "\"FairmaticSDK.ActiveDriveInfo\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1105,
-      "length": 23,
-      "value": "\"Fairmatic SDK Session\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1905,
-      "length": 81,
-      "value": "\"Making URL request: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1966,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1983,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2005,
-      "length": 70,
-      "value": "\"Body:\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2062,
-      "length": 9,
-      "value": "\"<Empty>\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2072,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2094,
-      "length": 54,
-      "value": "\"Query items:\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2147,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2862,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "Array",
-      "offset": 2980,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3102,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3202,
-      "length": 3,
-      "value": "\"{\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3288,
-      "length": 49,
-      "value": "\"- \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3303,
-      "length": 1,
-      "value": "\"=\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3334,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3386,
-      "length": 25,
-      "value": "\"- \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3408,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/APIClient\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3488,
-      "length": 9,
-      "value": "\"<Empty>\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/KeychainStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1577,
-      "length": 63,
-      "value": "\"Failed to store data to keychain, error: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/KeychainStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1639,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/KeychainStorage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3809,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 829,
-      "length": 139,
-      "value": "\"Response of request \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 885,
-      "length": 13,
-      "value": "\"Unknown URL\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 899,
-      "length": 3,
-      "value": "\" has status code: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 965,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 967,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1189,
-      "length": 78,
-      "value": "\"Expecting `HTTPURLResponse` but received: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1265,
-      "length": 1,
-      "value": "\".\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1327,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1419,
-      "length": 79,
-      "value": "\"URL request response: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1457,
-      "length": 1,
-      "value": "\", data:\n\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1496,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1516,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1522,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1594,
-      "length": 65,
-      "value": "\"API request failed with status code: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 1658,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 2024,
-      "length": 58,
-      "value": "\"Failed to decode response: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 2081,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Decoding\/RequestDecoder.swift",
-      "kind": "StringLiteral",
-      "offset": 2246,
-      "length": 25,
-      "value": "\"Response body is empty.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/CoreDataEntities\/KVPropertyDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 660,
-      "length": 38,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/CoreDataEntities\/KVPropertyDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 2,
-      "value": "\" == %@\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
       "kind": "IntegerLiteral",
       "offset": 580,
@@ -17698,48 +16760,6 @@
       "offset": 889,
       "length": 4,
       "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "StringLiteral",
-      "offset": 1747,
-      "length": 35,
-      "value": "\"API called before Fairmatic setup\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "StringLiteral",
-      "offset": 1835,
-      "length": 32,
-      "value": "\"The beacon scan has timed out.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "StringLiteral",
-      "offset": 1915,
-      "length": 125,
-      "value": "\"An unknown error occured in the Vehicle Tagging APIs. Please get in touch your contact at Fairmatic for further assistance.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "StringLiteral",
-      "offset": 2871,
-      "length": 70,
-      "value": "\"Unknown vehicle tagging error from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "StringLiteral",
-      "offset": 2917,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticVehicleTaggingError.swift",
-      "kind": "StringLiteral",
-      "offset": 2940,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Extensions\/URLRequest+Extensions.swift",
@@ -17757,26 +16777,12 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMLocationPoint.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1295,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMLocationPoint.swift",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 13,
       "value": "\"FairmaticSDK.LocationPoint\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMLocationPoint.swift",
-      "kind": "Array",
-      "offset": 1825,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupResponsePayload.swift",
       "kind": "StringLiteral",
       "offset": 405,
@@ -17987,27 +16993,6 @@
       "value": "\"login_token\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Extensions\/Data+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 502,
-      "length": 40,
-      "value": "\"Error: Data to String decoding failed.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Extensions\/Data+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 43,
-      "value": "\"JSON decoding failed with error: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Extensions\/Data+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 622,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 865,
@@ -18034,34 +17019,6 @@
       "offset": 1413,
       "length": 9,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2078,
-      "length": 69,
-      "value": "\"Unknown drive detection mode from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2123,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "StringLiteral",
-      "offset": 2146,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5706,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMConfiguration.swift",
@@ -18083,27 +17040,6 @@
       "offset": 886,
       "length": 18,
       "value": "\"FairmaticSDK.EstimatedDriveInfo\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMTripWarning.swift",
-      "kind": "StringLiteral",
-      "offset": 921,
-      "length": 66,
-      "value": "\"Unknown trip warning type from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMTripWarning.swift",
-      "kind": "StringLiteral",
-      "offset": 963,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMTripWarning.swift",
-      "kind": "StringLiteral",
-      "offset": 986,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMTripWarning.swift",
@@ -18177,27 +17113,6 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1367,
-      "length": 68,
-      "value": "\"Unknown accident confidence from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1411,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 1434,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
       "kind": "IntegerLiteral",
       "offset": 1695,
       "length": 3,
@@ -18223,27 +17138,6 @@
       "offset": 1742,
       "length": 4,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2364,
-      "length": 67,
-      "value": "\"Unknown collision severity from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2407,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 2430,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
@@ -18286,27 +17180,6 @@
       "offset": 2867,
       "length": 9,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3612,
-      "length": 68,
-      "value": "\"Unknown direction of impact from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3656,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3679,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMAccidentInfo.swift",
@@ -18353,13 +17226,6 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/DeviceInfoRepository.swift",
       "kind": "StringLiteral",
-      "offset": 1257,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/DeviceInfoRepository.swift",
-      "kind": "StringLiteral",
       "offset": 1487,
       "length": 2,
       "value": "\"\""
@@ -18393,20 +17259,6 @@
       "value": "\"internetconnectionstatus\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/InternetConnectivity.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4796,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/InternetConnectivity.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4837,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
       "kind": "StringLiteral",
       "offset": 1377,
@@ -18438,83 +17290,6 @@
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
       "kind": "BooleanLiteral",
       "offset": 4102,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 4315,
-      "length": 6,
-      "value": "\"momd\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4863,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4947,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5313,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6926,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9040,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 9055,
-      "length": 120,
-      "value": "\"DatabaseContainer always assumes 1 persistent store description. Existing descriptions: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 9174,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 9295,
-      "length": 45,
-      "value": "\"No persistent store descriptions available.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "StringLiteral",
-      "offset": 9765,
-      "length": 11,
-      "value": "\"\/dev\/null\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/DatabaseContainer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9781,
       "length": 5,
       "value": "false"
     },
@@ -18605,13 +17380,6 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
       "kind": "StringLiteral",
-      "offset": 649,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
-      "kind": "StringLiteral",
       "offset": 682,
       "length": 75,
       "value": "\"Error \""
@@ -18666,104 +17434,6 @@
       "value": "\" -> \""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
-      "kind": "StringLiteral",
-      "offset": 1211,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
-      "kind": "StringLiteral",
-      "offset": 1219,
-      "length": 19,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
-      "kind": "StringLiteral",
-      "offset": 1583,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/ClientError.swift",
-      "kind": "StringLiteral",
-      "offset": 1591,
-      "length": 19,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 54,
-      "value": "\"Could not load, error: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 690,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "Array",
-      "offset": 712,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 1176,
-      "length": 83,
-      "value": "\"Could not delete entries from \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 1220,
-      "length": 1,
-      "value": "\", error: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "StringLiteral",
-      "offset": 1258,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Database\/Utils\/NSManagedObject+Load.swift",
-      "kind": "Array",
-      "offset": 1943,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMMockAccidentConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4556,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
       "kind": "IntegerLiteral",
       "offset": 570,
@@ -18804,27 +17474,6 @@
       "offset": 711,
       "length": 1,
       "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
-      "kind": "StringLiteral",
-      "offset": 1319,
-      "length": 61,
-      "value": "\"Unknown vehicle type from ZD \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
-      "kind": "StringLiteral",
-      "offset": 1356,
-      "length": 1,
-      "value": "\", rawValue: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMVehicleType.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
@@ -18961,325 +17610,10 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriverAttributes.swift",
-      "kind": "Array",
-      "offset": 4185,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriverAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 4311,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriverAttributes.swift",
-      "kind": "StringLiteral",
-      "offset": 4351,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMDriverAttributes.swift",
       "kind": "StringLiteral",
       "offset": 1325,
       "length": 16,
       "value": "\"FairmaticSDK.DriverAttributes\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/DomainModels\/KVProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 377,
-      "length": 32,
-      "value": "\"[Key: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/DomainModels\/KVProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 390,
-      "length": 1,
-      "value": "\", Value: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/DomainModels\/KVProperty.swift",
-      "kind": "StringLiteral",
-      "offset": 407,
-      "length": 1,
-      "value": "\"]\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1789,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2139,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2586,
-      "length": 102,
-      "value": "\"SDK Setup API call is needed as the driverId in stored request is different from the current request\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2802,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2901,
-      "length": 42,
-      "value": "\"Stored response stale status: \""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2942,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3289,
-      "length": 87,
-      "value": "\"SDK Setup API call is not needed, will initialize the ZD SDK with the stored response\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3807,
-      "length": 38,
-      "value": "\"Internet not available for SDK Setup\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3926,
-      "length": 83,
-      "value": "\"Will initialize the ZD SDK with the stored response as the network is unreachable\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4299,
-      "length": 79,
-      "value": "\"No stored response present, will pass on networkUnreachable to the client app\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4408,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4513,
-      "length": 49,
-      "value": "\"Proceeding to make a network call for SDK setup\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4739,
-      "length": 50,
-      "value": "\"SDKSetupManager deallocated, should never happen\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4819,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4999,
-      "length": 26,
-      "value": "\"SDK Setup API successful\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5714,
-      "length": 53,
-      "value": "\"Received a valid server error for the SDK Setup API\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5959,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6239,
-      "length": 119,
-      "value": "\"SDK Setup API failed but it is not a valid server error, attempting to initialize the ZD SDK with the stored response\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6488,
-      "length": 59,
-      "value": "\"No stored response found, no way to initialize the ZD SDK\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6585,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9055,
-      "length": 21,
-      "value": "\"Initializing ZD SDK\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10487,
-      "length": 28,
-      "value": "\"In deinitializeZendriveSDK\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10582,
-      "length": 51,
-      "value": "\"ZD SDK is not setup, hence teardown is not needed\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10733,
-      "length": 21,
-      "value": "\"Tearing down ZD SDK\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11122,
-      "length": 40,
-      "value": "\"No previous SDK setup timestamp found!\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11183,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11451,
-      "length": 33,
-      "value": "\"Wiping out SDK setup repository\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11535,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11759,
-      "length": 44,
-      "value": "\"No need to teardown as ZD SDK is not setup\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 11853,
-      "length": 21,
-      "value": "\"Tearing down ZD SDK\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11925,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12209,
-      "length": 52,
-      "value": "\"Storing SDK setup request, response and timestamp.\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1232,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1315,
-      "length": 21,
-      "value": "\"CFBundleDisplayName\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1352,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1437,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1481,
-      "length": 9,
-      "value": "\"unknown\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1564,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/ApplicationInfoRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 1597,
-      "length": 9,
-      "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/DeviceIDGenerator.swift",
@@ -19289,25 +17623,11 @@
       "value": "\"___fmDeviceUniqueIdentifier\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/DeviceIDGenerator.swift",
-      "kind": "StringLiteral",
-      "offset": 1860,
-      "length": 40,
-      "value": "\"Generating deviceID for the first time\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/KVPropertyRepository.swift",
-      "kind": "StringLiteral",
-      "offset": 2314,
-      "length": 45,
-      "value": "\"Cound not encode value to store it in KV DB\""
-    },
-    {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicInterfaces\/Fairmatic.swift",
       "kind": "StringLiteral",
       "offset": 1666,
       "length": 7,
-      "value": "\"2.0.2\""
+      "value": "\"2.0.3\""
     }
   ]
 }
