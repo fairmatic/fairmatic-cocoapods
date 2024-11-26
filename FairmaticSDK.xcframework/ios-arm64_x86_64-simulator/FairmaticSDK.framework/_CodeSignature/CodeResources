@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eDZ9P33/4taSoLY0tjA0qJ9TCMk=
+		g8XgvbW2tKK0PUOL/GMYu57MHFQ=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7BP6jgUiezEAxe1miATGmOCHejQ=
+		CwrElbJ28fnxJ8Nb7unBeY9JOvI=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BeTOScHPhIjDy+ltJHv93AMpoJ0=
+		aFbaXnTqUdFfloubrk57bp3aN4o=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7BP6jgUiezEAxe1miATGmOCHejQ=
+		CwrElbJ28fnxJ8Nb7unBeY9JOvI=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		X/Btze3+9ZplSiiuFsV+PDSeOKg=
+		FjWl2ZeCR6hrgwFkUkJ3ulYizug=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OODzhHNKSwsudCcLiwu3Jd/Y31GFxbQK7DSAj+6Nthw=
+			ic5gmXz4z6YdDFDEgpuCC++a2yPyhO9gRCptYRLdiYs=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -135,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e4+mP/yuqcr8jANDo8gvVl4AuDDGjbR8hZu/5HjMgRM=
+			ft0GmVwQUBadoA6WcylHubc5zwswHWhAV8m3I+FUBZQ=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OODzhHNKSwsudCcLiwu3Jd/Y31GFxbQK7DSAj+6Nthw=
+			ic5gmXz4z6YdDFDEgpuCC++a2yPyhO9gRCptYRLdiYs=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -170,7 +170,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A6R6YkKZizFb5H2Jd+mije01RuNS7JVEmTEeHCPTeLY=
+			7GskhVD1AcYMuJNhiZP2tDEtV+g4NQz8mrsl+cn8yU4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
