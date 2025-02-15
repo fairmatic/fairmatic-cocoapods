@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LFp8Rx8jIOn/u986TgJN7HYCPKU=
+		BhLS0Dm6PQaqpF+bAVfXw5BdE08=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nNc4mhg440s/fL8+Yx1EpHp8owU=
+		+ocxBoV2BKO3diHPmOr036LmejY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PQ/KT1P6q8BBZsYQzRdflumSzbbY5FB/0UCexIfiNdw=
+			dL8sm1lizM+HTd47C2AwtYIVovpfvddcDCkKjqoYmzo=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+4tqoYQgQswn31ptdylnUweJ8RZFZRpNlAZAF2KpjVA=
+			XeqvFd4FgerjJtUvT8veR5x2wMsLtLFfo05rWC93xWg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

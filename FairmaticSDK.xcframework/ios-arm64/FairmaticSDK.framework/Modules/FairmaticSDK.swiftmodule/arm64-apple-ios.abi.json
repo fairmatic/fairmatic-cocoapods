@@ -5232,56 +5232,49 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
-      "length": 12,
-      "value": "\"fm_sdk_key\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
-      "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 960,
       "length": 11,
       "value": "\"driver_id\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1124,
+      "offset": 1003,
       "length": 19,
       "value": "\"sdk_build_version\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1167,
+      "offset": 1046,
       "length": 10,
       "value": "\"app_info\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1081,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1241,
+      "offset": 1120,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1161,
       "length": 14,
       "value": "\"phone_number\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/SDKSetupRequestPayload.swift",
       "kind": "StringLiteral",
-      "offset": 1323,
+      "offset": 1202,
       "length": 6,
       "value": "\"name\""
     },
