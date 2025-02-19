@@ -312,20 +312,32 @@ SWIFT_CLASS_NAMED("Configuration")
 /// Your SDK key.
 /// Pass in the SDK key for your app.
 /// This field is REQUIRED and should be a valid string.
-/// Check <code>Fairmatic/isValidInputParameter(_:)</code> to validate this field. <code>nil</code> strings are not allowed.
+/// <code>nil</code> strings are not allowed.
 /// Passing invalid string would cause SDK setup to fail.
 @property (nonatomic, copy) NSString * _Nonnull sdkKey;
 /// Unique ID for the current user. This can be any ID used by your app to
-/// identify its users.
-/// Use <code>Fairmatic/isValidInputParameter(_:)</code> to verify that <code>driverId</code> is valid.
-/// This field is REQUIRED and should be a valid string.
+/// identify its users. This field is REQUIRED and should be a valid string.
 /// Passing invalid string would cause SDK setup to fail.
+/// The <code>driverId</code> must adhere to the following rules:
+/// <ul>
+///   <li>
+///     Should not be an empty string.
+///   </li>
+///   <li>
+///     Should be less than or equal to 50 characters.
+///   </li>
+///   <li>
+///     Should not contain any of the following characters:  “?”, “ “, “&”, “/”, “", “;”, “#”, “\n”.
+///   </li>
+///   <li>
+///     Should not contain non-UTF characters.
+///   </li>
+/// </ul>
 @property (nonatomic, copy) NSString * _Nonnull driverId;
 /// Attributes for the current user. These attributes are stored on the server
-/// and are provided in Fairmatic’s APIs. Any existing attributes would be overwritten
-/// on the server when a non-nil value for this param is passed. Passing nil is a no-op.
+/// and are provided in Fairmatic’s APIs.
 /// Use this param to provide meta-information about the user like name,
-/// email, phone number or any custom attributes you wish to provide.
+/// email, phone number.
 @property (nonatomic, strong) FairmaticDriverAttributes * _Nonnull driverAttributes;
 /// Creates a Fairmatic <code>Configuration</code> object.
 /// \param sdkKey The SDK key to be used to initialize the SDK. Refer <code>sdkKey</code> for more details
@@ -361,6 +373,7 @@ SWIFT_CLASS_NAMED("DriverAttributes")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
 
 
 @class FairmaticSettings;
@@ -462,6 +475,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// A boolean that suggests successful completion of the call
 /// and a valid <code>FairmaticError</code> is returned in case of a failure.
 /// Possible error codes returned: <code>FairmaticError/notSetup</code>, <code>FairmaticError/insurancePeriodSame</code>,
+/// <code>FairmaticError/invalidTrackingId</code>.
 /// Refer to <code>FairmaticError</code> for more details on the errors.
 ///
 + (void)startDriveWithPeriod1:(NSString * _Nonnull)trackingId completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
@@ -550,8 +564,23 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FairmaticError, "FairmaticError", open) {
   FairmaticErrorUnsupportedOSVersion = 2,
 /// Fairmatic SDK does not support the device type.
   FairmaticErrorDeviceUnsupported = 3,
-/// Invalid parameter was passed to the API.
-  FairmaticErrorInvalidParams = 101,
+/// Invalid string was passed as the <code>driverId</code> in the <code>Configuration</code>for the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API.
+/// The <code>driverId</code> passed to the above API must adhere to the following rules:
+/// <ul>
+///   <li>
+///     Should not be an empty string.
+///   </li>
+///   <li>
+///     Should be less than or equal to 50 characters.
+///   </li>
+///   <li>
+///     Should not contain any of the following characters:  “?”, “ “, “&”, “/”, “", “;”, “#”, “\n”.
+///   </li>
+///   <li>
+///     Should not contain non-UTF characters.
+///   </li>
+/// </ul>
+  FairmaticErrorInvalidDriverId = 101,
 /// Internal error.
   FairmaticErrorInternalFailure = 102,
 /// Fairmatic SDK is not setup. This error is also returned in case SDK setup has started but completion handler for setup is not called yet.

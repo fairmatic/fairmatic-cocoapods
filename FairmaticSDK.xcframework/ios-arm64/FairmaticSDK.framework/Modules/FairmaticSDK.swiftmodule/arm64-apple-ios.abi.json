@@ -189,8 +189,8 @@
           },
           {
             "kind": "Var",
-            "name": "invalidParams",
-            "printedName": "invalidParams",
+            "name": "invalidDriverId",
+            "printedName": "invalidDriverId",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -220,8 +220,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@FairmaticSDK@E@FairmaticError@FairmaticErrorInvalidParams",
-            "mangledName": "$s12FairmaticSDK0A5ErrorO13invalidParamsyA2CmF",
+            "usr": "c:@M@FairmaticSDK@E@FairmaticError@FairmaticErrorInvalidDriverId",
+            "mangledName": "$s12FairmaticSDK0A5ErrorO15invalidDriverIdyA2CmF",
             "moduleName": "FairmaticSDK",
             "declAttributes": [
               "RawDocComment",
@@ -3479,6 +3479,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FairmaticSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "DriveKitCoreModule",
         "printedName": "DriveKitCoreModule",
         "declKind": "Import",
@@ -4453,121 +4463,121 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
       "offset": 1234,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
       "offset": 1496,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
       "offset": 1600,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
       "offset": 1688,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1765,
+      "offset": 2212,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1821,
+      "offset": 2268,
       "length": 3,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 1992,
+      "offset": 2439,
       "length": 3,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2344,
+      "offset": 2791,
       "length": 3,
       "value": "104"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3011,
+      "offset": 3458,
       "length": 3,
       "value": "105"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3231,
+      "offset": 3678,
       "length": 3,
       "value": "106"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3354,
+      "offset": 3801,
       "length": 3,
       "value": "107"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3444,
+      "offset": 3891,
       "length": 3,
       "value": "111"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3637,
+      "offset": 4084,
       "length": 4,
       "value": "1002"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 3928,
+      "offset": 4375,
       "length": 4,
       "value": "1003"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 4410,
+      "offset": 4857,
       "length": 4,
       "value": "1004"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 4618,
+      "offset": 5065,
       "length": 4,
       "value": "1005"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FairmaticError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 4872,
+      "offset": 5319,
       "length": 4,
       "value": "1006"
     },
@@ -4586,28 +4596,28 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMSettingsError.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMSettingsError.swift",
       "kind": "IntegerLiteral",
       "offset": 681,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMSettingsError.swift",
       "kind": "IntegerLiteral",
       "offset": 876,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMSettingsError.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMSettingsError.swift",
       "kind": "IntegerLiteral",
       "offset": 953,
       "length": 1,
@@ -4663,14 +4673,14 @@
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMHealthReason.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMHealthReason.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 22,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMHealthReason.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMHealthReason.swift",
       "kind": "IntegerLiteral",
       "offset": 659,
       "length": 20,
@@ -4791,14 +4801,7 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/DriveQuant\/DriveQuantMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 637,
-      "length": 14,
-      "value": "\"phone_number\""
-    },
-    {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/DriveQuant\/DriveQuantMetadata.swift",
-      "kind": "StringLiteral",
-      "offset": 742,
+      "offset": 560,
       "length": 14,
       "value": "\"fm_period_id\""
     },
@@ -4826,7 +4829,7 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/SDKSetupNetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 847,
+      "offset": 855,
       "length": 5,
       "value": "false"
     },
@@ -5279,14 +5282,14 @@
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMInsurancePeriod.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMInsurancePeriod.swift",
       "kind": "IntegerLiteral",
       "offset": 563,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/ZendriveWrapperObjects\/FMInsurancePeriod.swift",
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FMInsurancePeriod.swift",
       "kind": "IntegerLiteral",
       "offset": 726,
       "length": 7,

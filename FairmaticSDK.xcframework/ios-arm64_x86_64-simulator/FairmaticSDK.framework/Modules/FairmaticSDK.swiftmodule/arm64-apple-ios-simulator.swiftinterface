@@ -20,7 +20,7 @@ import _SwiftConcurrencyShims
   case networkUnreachable = 1
   case unsupportedOSVersion = 2
   case deviceUnsupported = 3
-  case invalidParams = 101
+  case invalidDriverId = 101
   case internalFailure = 102
   case notSetup = 103
   case insurancePeriodSame = 104
