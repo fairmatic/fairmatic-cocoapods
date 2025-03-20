@@ -361,9 +361,13 @@ SWIFT_CLASS_NAMED("Configuration")
 SWIFT_CLASS_NAMED("DriverAttributes")
 @interface FairmaticDriverAttributes : NSObject
 /// Creates a <code>DriverAttributes</code> object with the given driver details
-/// \param firstName The first name of the driver. This field is REQUIRED and should be a non-empty string which has less equal to 50 characters. If you pass an empty string, the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API will report <code>FairmaticError/invalidDriverName</code> error.
+/// \param firstName The first name of the driver. This field is REQUIRED and should be a non-empty string which has less equal to
+/// 50 characters. If you pass an empty string, the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API will report
+/// <code>FairmaticError/invalidDriverName</code> error.
 ///
-/// \param lastName The last name of the driver. This field is REQUIRED and should be a non-empty string which has less equal to 50 characters. If you pass an empty string, the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API will report <code>FairmaticError/invalidDriverName</code> error.
+/// \param lastName The last name of the driver. This field is REQUIRED and should be a non-empty string which has less equal to
+/// 50 characters. If you pass an empty string, the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API will report
+/// <code>FairmaticError/invalidDriverName</code> error.
 ///
 /// \param email The email of the driver
 ///
@@ -382,11 +386,14 @@ enum FairmaticSDKHealthReason : NSInteger;
 /// The Fairmatic API. This class contains static methods for all the functionality that the Fairmatic SDK provides.
 /// The client code should use this class to interact with the Fairmatic SDK.
 /// <blockquote>
-/// For all the methods that accept a completion handler as a parameter, please note that the completion handler is always invoked on the main queue by the Fairmatic SDK. If you are performing heavy operations in the body of the completion handler, make sure that you switch to the appropriate queue.
+/// For all the methods that accept a completion handler as a parameter, please note that the completion handler is always invoked
+/// on the main queue by the Fairmatic SDK. If you are performing heavy operations in the body of the completion handler, make sure
+/// that you switch to the appropriate queue.
 ///
 /// </blockquote>
 /// <blockquote>
-/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up with calling any other methods.
+/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up with calling any other
+/// methods.
 ///
 /// </blockquote>
 SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -403,11 +410,13 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// Things to Consider:-
 /// <ul>
 ///   <li>
-///     This API should should be called in your <code>AppDelegate</code>’s <code>application(_:didFinishLaunchingWithOptions:)</code> method as early as possible.
+///     This API should should be called in your <code>AppDelegate</code>’s <code>application(_:didFinishLaunchingWithOptions:)</code> method as early
+///     as possible.
 ///   </li>
 ///   <li>
 ///     If <code>Configuration/driverId</code> or <code>Configuration/sdkKey</code> is changed while
-///     doing multiple setups, it will be the same as calling <code>Fairmatic/teardown(completionHandler:)</code> followed by calling <code>Fairmatic/setupWith(configuration:completionHandler:)</code> with the
+///     doing multiple setups, it will be the same as calling <code>Fairmatic/teardown(completionHandler:)</code> followed by calling
+///     <code>Fairmatic/setupWith(configuration:completionHandler:)</code> with the
 ///     new parameters.
 ///   </li>
 /// </ul>
@@ -428,7 +437,8 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// Stops driving data collection. The application can disable the Fairmatic SDK
 /// by invoking this method. This method is asynchronous.
 /// The teardown method is internally synchronized with
-/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two methods independently. Calling this
+/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two
+/// methods independently. Calling this
 /// with nil completion handler is same as calling teardown method.
 /// \param handler Called when method completes. The handler would be invoked on main thread. Can be nil.
 ///
@@ -440,7 +450,8 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// Data cannot be recovered after this call.
 /// <blockquote>
 /// This call can only be made when the SDK is not running.
-/// Call <code>teardown(completionHandler:)</code> to tear down a live SDK before making this call else <code>FairmaticError/notTornDown</code> will be reported
+/// Call <code>teardown(completionHandler:)</code> to tear down a live SDK before making this call else <code>FairmaticError/notTornDown</code>
+/// will be reported
 ///
 /// </blockquote>
 + (void)wipeOutWithCompletion:(void (^ _Nullable)(NSError * _Nullable))completion;
@@ -449,8 +460,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (NSString * _Nonnull)buildVersion SWIFT_WARN_UNUSED_RESULT;
 /// Get the current settings of the SDK. The settings are returned in the completion handler.
 /// This <code>Settings</code> class surfaces errors in the device or application settings that affect trip detection in the SDK.
-/// Your application should check this object to ensure that the SDK is set up correctly and has all the necessary permissions to detect trips accurately.
-/// \param completionHandler A completion to be executed with the current settings of the SDK. This is a valid <code>Settings</code> object if the SDK is setup, otherwise <code>nil</code>. The <code>completionHandler</code> is called on main thread, so if you want to do any heavy processing, you should dispatch it to a background queue.
+/// Your application should check this object to ensure that the SDK is set up correctly and has all the necessary permissions
+/// to detect trips accurately.
+/// \param completionHandler A completion to be executed with the current settings of the SDK. This is a valid
+/// <code>Settings</code> object if the SDK is setup, otherwise <code>nil</code>. The <code>completionHandler</code> is called on main thread, so if you want
+/// to do any heavy processing, you should dispatch it to a background queue.
 ///
 + (void)getSettingsWithCompletionHandler:(void (^ _Nonnull)(FairmaticSettings * _Nullable))completionHandler;
 /// Logs all the critical permissions required by the SDK
@@ -468,7 +482,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// A manual trip of trackingId will be started immediately on this call.
 /// The entire duration in this period will be recorded as a single trip.
 /// If period 1 is already in progress with the same trackingId, this call will be a no-op.
-/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the user
+/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the
+/// user
 ///
 /// \param completionHandler A block object to be executed when the task finishes.
 /// This block has no return value and two arguments:
@@ -528,7 +543,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 
 /// Error returned as code of <code>NSError</code> from <code>Fairmatic</code> public APIs in case of
 /// failures.
-/// In case you are using Objective-C, the errors would be returned as <code>NSError</code> objects. In that case, you can use the <code>code</code> of the <code>NSError</code> to get the appropriate <code>FairmaticError</code>
+/// In case you are using Objective-C, the errors would be returned as <code>NSError</code> objects. In that case, you can use the <code>code</code> of
+/// the <code>NSError</code> to get the appropriate <code>FairmaticError</code>
 /// \code
 /// // Considering that the name of the variable is `nsError`,
 /// // you can check the proper error code
@@ -564,7 +580,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FairmaticError, "FairmaticError", open) {
   FairmaticErrorUnsupportedOSVersion = 2,
 /// Fairmatic SDK does not support the device type.
   FairmaticErrorDeviceUnsupported = 3,
-/// Invalid string was passed as the <code>driverId</code> in the <code>Configuration</code>for the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API.
+/// Invalid string was passed as the <code>driverId</code> in the <code>Configuration</code>for the
+/// <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API.
 /// The <code>driverId</code> passed to the above API must adhere to the following rules:
 /// <ul>
 ///   <li>
@@ -583,10 +600,12 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FairmaticError, "FairmaticError", open) {
   FairmaticErrorInvalidDriverId = 101,
 /// Internal error.
   FairmaticErrorInternalFailure = 102,
-/// Fairmatic SDK is not setup. This error is also returned in case SDK setup has started but completion handler for setup is not called yet.
+/// Fairmatic SDK is not setup. This error is also returned in case SDK setup has started but completion handler for setup is
+/// not called yet.
   FairmaticErrorNotSetup = 103,
 /// Insurance Period hasn’t changed from the previously active period, action ignored.
-/// This error may be returned from <code>Fairmatic/startDriveWithPeriod1(_:completionHandler:)</code>, <code>Fairmatic/startDriveWithPeriod2(_:completionHandler:)</code>,
+/// This error may be returned from <code>Fairmatic/startDriveWithPeriod1(_:completionHandler:)</code>,
+/// <code>Fairmatic/startDriveWithPeriod2(_:completionHandler:)</code>,
 /// <code>Fairmatic/startDriveWithPeriod3(_:completionHandler:)</code>.
   FairmaticErrorInsurancePeriodSame = 104,
 /// Invalid <code>trackingId</code> passed for new drive. This error may be returned from
@@ -616,12 +635,17 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FairmaticError, "FairmaticError", open) {
   FairmaticErrorIoError = 107,
 /// User is not authorized to use this application.
   FairmaticErrorUserDeprovisioned = 111,
-/// This error is thrown when the size of the fleet has exceeded the limit. Please get in touch with your contact at Fairmatic to increase the limit.
+/// This error is thrown when the size of the fleet has exceeded the limit. Please get in touch with your contact at Fairmatic
+/// to increase the limit.
   FairmaticErrorFleetSizeLimitExceeded = 1002,
-/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when the driver associated with the provided <code>Configuration/driverId</code> has been deleted. Please get in touch with your contact at Fairmatic with the <code>driverId</code>.
+/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when the driver associated with
+/// the provided <code>Configuration/driverId</code> has been deleted. Please get in touch with your contact at Fairmatic with the
+/// <code>driverId</code>.
   FairmaticErrorDriverDeleted = 1003,
-/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when you provide the driver name provided in <code>DriverAttributes</code> is invalid.
-/// Both the <code>firstName</code> and the <code>lastName</code> passed when initializing  <code>DriverAttributes/init(firstName:lastName:email:phoneNumber:)</code> must adhere to the following rules:
+/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when you provide the driver name
+/// provided in <code>DriverAttributes</code> is invalid.
+/// Both the <code>firstName</code> and the <code>lastName</code> passed when initializing
+/// <code>DriverAttributes/init(firstName:lastName:email:phoneNumber:)</code> must adhere to the following rules:
 /// <ul>
 ///   <li>
 ///     Should not be empty.
@@ -631,9 +655,11 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FairmaticError, "FairmaticError", open) {
 ///   </li>
 /// </ul>
   FairmaticErrorInvalidDriverName = 1004,
-/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when a setup call is already in progress when the method was called`.
+/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when a setup call is already in
+/// progress when the method was called`.
   FairmaticErrorSetupAlreadyInProgress = 1005,
-/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when the account is not provisioned in the Fairmatic system. Pleae contact Fairmatic support team with your SDK key.
+/// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when the account is not
+/// provisioned in the Fairmatic system. Pleae contact Fairmatic support team with your SDK key.
   FairmaticErrorAccountNotProvisioned = 1006,
 };
 static NSString * _Nonnull const FairmaticErrorDomain = @"FairmaticSDK.FairmaticError";

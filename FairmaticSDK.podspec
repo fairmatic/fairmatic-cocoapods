@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
     ss.frameworks     = "Accelerate", "SystemConfiguration", "CoreLocation", "CoreMotion", "CoreTelephony"
     ss.dependency "AWSCore", '~>2.34.2'
     ss.dependency "AWSSQS", '~>2.34.2'
-    ss.dependency "DriveKitTripAnalysis", '2.9.2'
+    ss.dependency "DriveKitTripAnalysis", '2.13.2'
   end
 end
