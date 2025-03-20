@@ -3794,7 +3794,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(FairmaticSDK.Settings?) -> ()",
+                "printedName": "(FairmaticSDK.Settings) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3803,24 +3803,16 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "FairmaticSDK.Settings?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Settings",
-                        "printedName": "FairmaticSDK.Settings",
-                        "usr": "c:@M@FairmaticSDK@objc(cs)FairmaticSettings"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "Settings",
+                    "printedName": "FairmaticSDK.Settings",
+                    "usr": "c:@M@FairmaticSDK@objc(cs)FairmaticSettings"
                   }
                 ]
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@FairmaticSDK@objc(cs)Fairmatic(cm)getSettingsWithCompletionHandler:",
-            "mangledName": "$s12FairmaticSDK0A0C11getSettings17completionHandleryyAA0D0CSgc_tFZ",
+            "mangledName": "$s12FairmaticSDK0A0C11getSettings17completionHandleryyAA0D0Cc_tFZ",
             "moduleName": "FairmaticSDK",
             "static": true,
             "objc_name": "getSettingsWithCompletionHandler:",
@@ -4185,63 +4177,6 @@
             "mangledName": "$s12FairmaticSDK0A0C10stopPeriodyyySb_s5Error_pSgtcSgFZ",
             "moduleName": "FairmaticSDK",
             "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setLogImplementation",
-            "printedName": "setLogImplementation(logHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String, Swift.String) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.String, Swift.String)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)setLogImplementationWithLogHandler:",
-            "mangledName": "$s12FairmaticSDK0A0C20setLogImplementation10logHandleryySS_SStc_tFZ",
-            "moduleName": "FairmaticSDK",
-            "static": true,
-            "objc_name": "setLogImplementationWithLogHandler:",
             "declAttributes": [
               "Final",
               "AccessControl",

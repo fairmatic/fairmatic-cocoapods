@@ -462,11 +462,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// This <code>Settings</code> class surfaces errors in the device or application settings that affect trip detection in the SDK.
 /// Your application should check this object to ensure that the SDK is set up correctly and has all the necessary permissions
 /// to detect trips accurately.
-/// \param completionHandler A completion to be executed with the current settings of the SDK. This is a valid
-/// <code>Settings</code> object if the SDK is setup, otherwise <code>nil</code>. The <code>completionHandler</code> is called on main thread, so if you want
+/// \param completionHandler A completion to be executed with the current settings of the SDK. This is a
+/// <code>Settings</code> object that gives out information on the errors. The <code>completionHandler</code> is called on main thread, so if you want
 /// to do any heavy processing, you should dispatch it to a background queue.
 ///
-+ (void)getSettingsWithCompletionHandler:(void (^ _Nonnull)(FairmaticSettings * _Nullable))completionHandler;
++ (void)getSettingsWithCompletionHandler:(void (^ _Nonnull)(FairmaticSettings * _Nonnull))completionHandler;
 /// Logs all the critical permissions required by the SDK
 /// \param reason Indicates the reason for logging SDK Health
 ///
@@ -537,8 +537,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Refer to <code>FairmaticError</code> for more details on the errors.
 ///
 + (void)stopPeriod:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
-/// Temporary method
-+ (void)setLogImplementationWithLogHandler:(void (^ _Nonnull)(NSString * _Nonnull, NSString * _Nonnull))logHandler;
 @end
 
 /// Error returned as code of <code>NSError</code> from <code>Fairmatic</code> public APIs in case of
