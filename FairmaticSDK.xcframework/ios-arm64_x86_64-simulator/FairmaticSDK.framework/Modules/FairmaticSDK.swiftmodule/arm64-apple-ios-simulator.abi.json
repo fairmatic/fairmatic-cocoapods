@@ -4938,35 +4938,35 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 314,
-      "length": 41,
-      "value": "\"https:\/\/app-fmsdkv2.stage.fairmatic.org\""
+      "offset": 264,
+      "length": 30,
+      "value": "\"https:\/\/mobile.fairmatic.org\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 440,
-      "length": 41,
-      "value": "\"https:\/\/app-fmsdkv2.stage.fairmatic.org\""
+      "offset": 379,
+      "length": 31,
+      "value": "\"https:\/\/backend.fairmatic.org\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 675,
+      "offset": 604,
       "length": 21,
       "value": "\"\/v3\/api\/fmsdk-setup\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 713,
       "length": 26,
       "value": "\"v1\/api\/insurance-periods\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 979,
+      "offset": 908,
       "length": 2,
       "value": "60"
     },
