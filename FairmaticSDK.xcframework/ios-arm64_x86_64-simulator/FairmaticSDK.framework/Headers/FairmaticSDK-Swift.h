@@ -392,8 +392,7 @@ enum FairmaticSDKHealthReason : NSInteger;
 ///
 /// </blockquote>
 /// <blockquote>
-/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up with calling any other
-/// methods.
+/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up before calling any other methods of the SDK.
 ///
 /// </blockquote>
 SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -410,36 +409,24 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// Things to Consider:-
 /// <ul>
 ///   <li>
-///     This API should should be called in your <code>AppDelegate</code>’s <code>application(_:didFinishLaunchingWithOptions:)</code> method as early
+///     This API should should be called in your <code>AppDelegate</code>‘s <code>application(_:didFinishLaunchingWithOptions:)</code> method as early
 ///     as possible.
-///   </li>
-///   <li>
-///     If <code>Configuration/driverId</code> or <code>Configuration/sdkKey</code> is changed while
-///     doing multiple setups, it will be the same as calling <code>Fairmatic/teardown(completionHandler:)</code> followed by calling
-///     <code>Fairmatic/setupWith(configuration:completionHandler:)</code> with the
-///     new parameters.
+///     When data collection needs to be stopped call the <code>teardown(completionHandler:)</code> method.
+///     This might be done for example when the application’s user has logged out (and possibly a different user might login later).
 ///   </li>
 /// </ul>
-/// When data collection needs to be stopped call the <code>teardown(completionHandler:)</code> method.
-/// This might be done for example when the application’s user has logged out (and possibly a different user might login later).
-/// \param configuration The configuration object used to setup the SDK. This
-/// object contains your credentials along with
-/// additional setup parameters that you can use to provide
-/// meta-information about the user or to tune the sdk
-/// functionality.
+/// \param configuration The configuration object used to setup the Fairmatic SDK.
 ///
 /// \param handler This block is called when fairmatic setup completes.
 /// The application is expected to use the success and error
 /// params passed to this block to handle failures. The handler
-/// would be invoked on the main thread. Can be nil.
+/// would be invoked on the main thread.
 ///
 + (void)setupWithConfiguration:(FairmaticConfiguration * _Nonnull)configuration completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))handler;
 /// Stops driving data collection. The application can disable the Fairmatic SDK
 /// by invoking this method. This method is asynchronous.
 /// The teardown method is internally synchronized with
-/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two
-/// methods independently. Calling this
-/// with nil completion handler is same as calling teardown method.
+/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two methods independently. Calling this with nil completion handler is same as calling teardown method.
 /// \param handler Called when method completes. The handler would be invoked on main thread. Can be nil.
 ///
 + (void)teardownWithCompletionHandler:(void (^ _Nullable)(void))handler;
@@ -480,10 +467,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @interface Fairmatic (SWIFT_EXTENSION(FairmaticSDK))
 /// Start Fairmatic insurance period 1 in the SDK.
 /// A manual trip of trackingId will be started immediately on this call.
-/// The entire duration in this period will be recorded as a single trip.
 /// If period 1 is already in progress with the same trackingId, this call will be a no-op.
-/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the
-/// user
+/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the user
 ///
 /// \param completionHandler A block object to be executed when the task finishes.
 /// This block has no return value and two arguments:
@@ -496,7 +481,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startDriveWithPeriod1:(NSString * _Nonnull)trackingId completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 /// Start Fairmatic insurance period 2 in the SDK.
 /// A manual trip of id trackingId will be started immediately on this call.
-/// The entire duration in this period will be recorded as a single trip.
 /// If period 2 is already in progress with the same trackingId, this call will be a no-op.
 /// \param trackingId An identifier which allows identifying this drive uniquely.
 /// This drive identifier must be unique for the user.
@@ -512,7 +496,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startDriveWithPeriod2:(NSString * _Nonnull)trackingId completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 /// Start Fairmatic insurance period 3 in the SDK.
 /// A manual trip of id trackingId will be started immediately on this call.
-/// The entire duration in this period will be recorded as a single trip.
 /// If period 3 is already in progress with the same trackingId, this call will be a no-op.
 /// \param trackingId An identifier which allows identifying this drive uniquely.
 /// This drive identifier must be unique for the user.
@@ -1140,8 +1123,7 @@ enum FairmaticSDKHealthReason : NSInteger;
 ///
 /// </blockquote>
 /// <blockquote>
-/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up with calling any other
-/// methods.
+/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up before calling any other methods of the SDK.
 ///
 /// </blockquote>
 SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -1158,36 +1140,24 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// Things to Consider:-
 /// <ul>
 ///   <li>
-///     This API should should be called in your <code>AppDelegate</code>’s <code>application(_:didFinishLaunchingWithOptions:)</code> method as early
+///     This API should should be called in your <code>AppDelegate</code>‘s <code>application(_:didFinishLaunchingWithOptions:)</code> method as early
 ///     as possible.
-///   </li>
-///   <li>
-///     If <code>Configuration/driverId</code> or <code>Configuration/sdkKey</code> is changed while
-///     doing multiple setups, it will be the same as calling <code>Fairmatic/teardown(completionHandler:)</code> followed by calling
-///     <code>Fairmatic/setupWith(configuration:completionHandler:)</code> with the
-///     new parameters.
+///     When data collection needs to be stopped call the <code>teardown(completionHandler:)</code> method.
+///     This might be done for example when the application’s user has logged out (and possibly a different user might login later).
 ///   </li>
 /// </ul>
-/// When data collection needs to be stopped call the <code>teardown(completionHandler:)</code> method.
-/// This might be done for example when the application’s user has logged out (and possibly a different user might login later).
-/// \param configuration The configuration object used to setup the SDK. This
-/// object contains your credentials along with
-/// additional setup parameters that you can use to provide
-/// meta-information about the user or to tune the sdk
-/// functionality.
+/// \param configuration The configuration object used to setup the Fairmatic SDK.
 ///
 /// \param handler This block is called when fairmatic setup completes.
 /// The application is expected to use the success and error
 /// params passed to this block to handle failures. The handler
-/// would be invoked on the main thread. Can be nil.
+/// would be invoked on the main thread.
 ///
 + (void)setupWithConfiguration:(FairmaticConfiguration * _Nonnull)configuration completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))handler;
 /// Stops driving data collection. The application can disable the Fairmatic SDK
 /// by invoking this method. This method is asynchronous.
 /// The teardown method is internally synchronized with
-/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two
-/// methods independently. Calling this
-/// with nil completion handler is same as calling teardown method.
+/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two methods independently. Calling this with nil completion handler is same as calling teardown method.
 /// \param handler Called when method completes. The handler would be invoked on main thread. Can be nil.
 ///
 + (void)teardownWithCompletionHandler:(void (^ _Nullable)(void))handler;
@@ -1228,10 +1198,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 @interface Fairmatic (SWIFT_EXTENSION(FairmaticSDK))
 /// Start Fairmatic insurance period 1 in the SDK.
 /// A manual trip of trackingId will be started immediately on this call.
-/// The entire duration in this period will be recorded as a single trip.
 /// If period 1 is already in progress with the same trackingId, this call will be a no-op.
-/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the
-/// user
+/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the user
 ///
 /// \param completionHandler A block object to be executed when the task finishes.
 /// This block has no return value and two arguments:
@@ -1244,7 +1212,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startDriveWithPeriod1:(NSString * _Nonnull)trackingId completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 /// Start Fairmatic insurance period 2 in the SDK.
 /// A manual trip of id trackingId will be started immediately on this call.
-/// The entire duration in this period will be recorded as a single trip.
 /// If period 2 is already in progress with the same trackingId, this call will be a no-op.
 /// \param trackingId An identifier which allows identifying this drive uniquely.
 /// This drive identifier must be unique for the user.
@@ -1260,7 +1227,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 + (void)startDriveWithPeriod2:(NSString * _Nonnull)trackingId completionHandler:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
 /// Start Fairmatic insurance period 3 in the SDK.
 /// A manual trip of id trackingId will be started immediately on this call.
-/// The entire duration in this period will be recorded as a single trip.
 /// If period 3 is already in progress with the same trackingId, this call will be a no-op.
 /// \param trackingId An identifier which allows identifying this drive uniquely.
 /// This drive identifier must be unique for the user.
