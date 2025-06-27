@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = "FairmaticSDK"
-  s.version        = "3.0.0"
+  s.version        = "3.0.1"
   s.summary        = "Fairmatic iOS SDK"
   s.homepage       = "http://www.fairmatic.com"
   s.license        = { :type => "Commercial", :text => "See https://www.fairmatic.com/privacy-policy" }
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
     ss.frameworks     = "Accelerate", "SystemConfiguration", "CoreLocation", "CoreMotion", "CoreTelephony"
     ss.dependency "AWSCore", '~>2.34.2'
     ss.dependency "AWSSQS", '~>2.34.2'
-    ss.dependency "DriveKitTripAnalysis", '2.13.2'
+    ss.dependency "DriveKitTripAnalysis", '2.17.0'
   end
 end
