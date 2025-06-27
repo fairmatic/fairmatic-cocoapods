@@ -6,7 +6,7 @@
 	<dict>
 		<key>FairmaticSDK.momd/Fairmatic 2.mom</key>
 		<data>
-		wJTWoNXNFdjxVUw8gUGxE1SwASc=
+		0hEtr+HY6lsWSHRtZN0ms+Lc68A=
 		</data>
 		<key>FairmaticSDK.momd/Fairmatic 2.omo</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>FairmaticSDK.momd/Fairmatic.mom</key>
 		<data>
-		8HhqNYDorqxZo7FpGe7eOmNa8bk=
+		lnAeo35fp5qrfZPsJdEqKFrrm98=
 		</data>
 		<key>FairmaticSDK.momd/VersionInfo.plist</key>
 		<data>
@@ -26,31 +26,31 @@
 		</data>
 		<key>Headers/FairmaticSDK-Swift.h</key>
 		<data>
-		36vio81TMuTXqy0Slid63D2yHvI=
+		vPz8wG8os2t7CztsXnbt/sLcXq0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		boX/QuiKWZuBRy2siL5UxvXkEQk=
+		Ta5YF0x8hysR9ciexxJySyQcFjM=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Lj+oO0Ypnl5lF9TY5OzGusqrEwA=
+		fAp91qW1m5ZQKaCC77IP8NT4ry8=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		kgW5cwedk2wOtwXMh+OYOEPGwFk=
+		nNAPpiQKlEtKK+mBDLSE2ZuGJSc=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		hn6PBt5fZqnVYW2iuXg5+gT8yBw=
+		Gd6pqhtyeAq4wOslf8hJwXOUvFY=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kgW5cwedk2wOtwXMh+OYOEPGwFk=
+		nNAPpiQKlEtKK+mBDLSE2ZuGJSc=
 		</data>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wefoqARqLo7PEwO3YxETLjkNU10=
+		0Hx7OodOvp0FUd8XDnEsPZdyA4k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8PDOG+fbxMoEEr8cD7pN91vxaFS4J2xCWDQthGIZpk=
+			ASwY2qViZHCGqCZzBGdBt1b1tPbDPIrDGYz6nMCZquU=
 			</data>
 		</dict>
 		<key>FairmaticSDK.momd/Fairmatic 2.omo</key>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C546v86c5PNYcWPYJIflcMay+AVkOld9WEV6EjjLIrw=
+			nnA1lfi2rbJNLpfblBBRH3sIiCGgvDvz9s+0M5hCGBI=
 			</data>
 		</dict>
 		<key>FairmaticSDK.momd/VersionInfo.plist</key>
@@ -102,42 +102,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BOo2v7/htQTC19q4UHvKqf6P9GpYYKhWaBdRhR6VjNc=
+			c1DOsHL4yNSubnemYPzD+vSdtBCqq6AyHBVBGrPu5E0=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CrdkKYG40fHYHErIfLfF9SE9CqpCEch+vErk5PF2i68=
+			aJwHlCpv/qvbAgJ7a+xQVZWkHbHILi3T/HlqRTTs7ag=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VORSoc/aHK7UutGeWYS+aDn3ReNRceirk6q/XKLU0zE=
+			RrOWXyWx1JHVigv2aUS/FqtZT+25+9CzH6JBilaWegc=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i0nvHObYPAWmLEAtjORJQERfwn2OmIMdluGIClqTqSg=
+			HmkH7FDfOHXmOc0N8l0CXCCaDCKA52tlFTzVv1Vqgd4=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VORSoc/aHK7UutGeWYS+aDn3ReNRceirk6q/XKLU0zE=
+			RrOWXyWx1JHVigv2aUS/FqtZT+25+9CzH6JBilaWegc=
 			</data>
 		</dict>
 		<key>Modules/FairmaticSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ceSRYNv7hOYYyCqfHUCzEbePapr36P48KK4YmKVLu5c=
+			fyNXVMwQiEbQrfjdhbTeu5ojPU36fiRLPQoJmKrSGdI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
