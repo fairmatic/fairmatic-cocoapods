@@ -734,6 +734,90 @@
             "fixedbinaryorder": 16
           },
           {
+            "kind": "Var",
+            "name": "driverNotFound",
+            "printedName": "driverNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FairmaticSDK.FairmaticError.Type) -> FairmaticSDK.FairmaticError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FairmaticError",
+                    "printedName": "FairmaticSDK.FairmaticError",
+                    "usr": "c:@M@FairmaticSDK@E@FairmaticError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FairmaticSDK.FairmaticError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FairmaticError",
+                        "printedName": "FairmaticSDK.FairmaticError",
+                        "usr": "c:@M@FairmaticSDK@E@FairmaticError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FairmaticSDK@E@FairmaticError@FairmaticErrorDriverNotFound",
+            "mangledName": "$s12FairmaticSDK0A5ErrorO14driverNotFoundyA2CmF",
+            "moduleName": "FairmaticSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 17
+          },
+          {
+            "kind": "Var",
+            "name": "incidentReportingFeatureNotEnabled",
+            "printedName": "incidentReportingFeatureNotEnabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FairmaticSDK.FairmaticError.Type) -> FairmaticSDK.FairmaticError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FairmaticError",
+                    "printedName": "FairmaticSDK.FairmaticError",
+                    "usr": "c:@M@FairmaticSDK@E@FairmaticError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FairmaticSDK.FairmaticError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FairmaticError",
+                        "printedName": "FairmaticSDK.FairmaticError",
+                        "usr": "c:@M@FairmaticSDK@E@FairmaticError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FairmaticSDK@E@FairmaticError@FairmaticErrorIncidentReportingFeatureNotEnabled",
+            "mangledName": "$s12FairmaticSDK0A5ErrorO34incidentReportingFeatureNotEnabledyA2CmF",
+            "moduleName": "FairmaticSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 18
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -1031,6 +1115,16 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FairmaticSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FairmaticSDK",
         "declAttributes": [
@@ -2233,6 +2327,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FairmaticSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FairmaticSDK"
       },
       {
         "kind": "Import",
@@ -4185,6 +4296,131 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openIncidentReportingWebPage",
+            "printedName": "openIncidentReportingWebPage(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)openIncidentReportingWebPageWithCompletionHandler:",
+            "mangledName": "$s12FairmaticSDK0A0C28openIncidentReportingWebPage17completionHandleryys5Error_pSgc_tFZ",
+            "moduleName": "FairmaticSDK",
+            "static": true,
+            "objc_name": "openIncidentReportingWebPageWithCompletionHandler:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIncidentReportingURL",
+            "printedName": "getIncidentReportingURL(completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@FairmaticSDK@objc(cs)Fairmatic(cm)getIncidentReportingURLWithCompletionHandler:",
+            "mangledName": "$s12FairmaticSDK0A0C23getIncidentReportingURL17completionHandleryySSSg_s5Error_pSgtc_tFZ",
+            "moduleName": "FairmaticSDK",
+            "static": true,
+            "objc_name": "getIncidentReportingURLWithCompletionHandler:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -4368,6 +4604,97 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIApplication",
+        "printedName": "UIApplication",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIApplication",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIApplication",
+        "declAttributes": [
+          "Preconcurrency",
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -4481,14 +4808,14 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 4925,
+      "offset": 4924,
       "length": 4,
       "value": "1004"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
       "kind": "IntegerLiteral",
-      "offset": 5141,
+      "offset": 5140,
       "length": 4,
       "value": "1005"
     },
@@ -4498,6 +4825,20 @@
       "offset": 5403,
       "length": 4,
       "value": "1006"
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5779,
+      "length": 4,
+      "value": "1007"
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/PublicObjects\/FairmaticError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6164,
+      "length": 4,
+      "value": "1009"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/VendorLibs\/Reachability\/FMReachability.swift",
@@ -4614,30 +4955,37 @@
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKFactory.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 903,
       "length": 37,
       "value": "\"com.fairmatic.fairmaticsdk.keychain\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKFactory.swift",
       "kind": "StringLiteral",
-      "offset": 889,
+      "offset": 994,
       "length": 41,
       "value": "\"com.fairmatic.fairmaticsdk.userdefaults\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKFactory.swift",
       "kind": "StringLiteral",
-      "offset": 979,
+      "offset": 1084,
       "length": 14,
       "value": "\"FairmaticSDK\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/FairmaticSDKFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2522,
+      "offset": 2627,
       "length": 39,
       "value": "\"com.fairmatic.fairmaticsdk.publicapis\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/IncidentsURLResponsePayload.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 26,
+      "value": "\"claims_incident_auth_url\""
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/SDKMigration\/MigrationImplementations\/Migration_Old_to_3_0_0.swift",
@@ -4900,8 +5248,15 @@
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 33,
+      "value": "\"v1\/api\/driver\/incident\/auth-url\""
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/NetworkConstants.swift",
       "kind": "IntegerLiteral",
-      "offset": 908,
+      "offset": 1044,
       "length": 2,
       "value": "60"
     },
@@ -4932,6 +5287,20 @@
       "offset": 926,
       "length": 4,
       "value": "1003"
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/ErrorPayload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 963,
+      "length": 4,
+      "value": "1004"
+    },
+    {
+      "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Network\/Payloads\/ErrorPayload.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1020,
+      "length": 4,
+      "value": "1005"
     },
     {
       "filePath": "\/Users\/sagardagdu\/Code\/Github\/fairmatic-sdk-ios\/Fairmatic\/Classes\/Managers\/Repositories\/DeviceInfoRepository.swift",

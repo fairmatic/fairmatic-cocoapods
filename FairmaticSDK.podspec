@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = "FairmaticSDK"
-  s.version        = "3.0.1"
+  s.version        = "3.1.0"
   s.summary        = "Fairmatic iOS SDK"
   s.homepage       = "http://www.fairmatic.com"
   s.license        = { :type => "Commercial", :text => "See https://www.fairmatic.com/privacy-policy" }
