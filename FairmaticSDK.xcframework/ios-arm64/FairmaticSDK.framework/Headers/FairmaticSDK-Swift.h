@@ -384,7 +384,8 @@ enum FairmaticSDKHealthReason : NSInteger;
 ///
 /// </blockquote>
 /// <blockquote>
-/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up before calling any other methods of the SDK.
+/// Warning: Make sure to call the <code>setupWith(configuration:completionHandler:)</code> method to set the SDK up before calling any
+/// other methods of the SDK.
 ///
 /// </blockquote>
 SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
@@ -418,7 +419,8 @@ SWIFT_CLASS_NAMED("Fairmatic") SWIFT_AVAILABILITY(ios,introduced=13.0)
 /// Stops driving data collection. The application can disable the Fairmatic SDK
 /// by invoking this method. This method is asynchronous.
 /// The teardown method is internally synchronized with
-/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two methods independently. Calling this with nil completion handler is same as calling teardown method.
+/// <code>setupWith(configuration:completionHandler:)</code> method, and the enclosing application should avoid synchronizing the two
+/// methods independently. Calling this with nil completion handler is same as calling teardown method.
 /// \param handler Called when method completes. The handler would be invoked on main thread. Can be nil.
 ///
 + (void)teardownWithCompletionHandler:(void (^ _Nullable)(void))handler;
@@ -442,7 +444,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Your application should check this object to ensure that the SDK is set up correctly and has all the necessary permissions
 /// to detect trips accurately.
 /// \param completionHandler A completion to be executed with the current settings of the SDK. This is a
-/// <code>Settings</code> object that gives out information on the errors. The <code>completionHandler</code> is called on main thread, so if you want
+/// <code>Settings</code> object that gives out information on the errors. The <code>completionHandler</code> is called on main thread, so if you
+/// want
 /// to do any heavy processing, you should dispatch it to a background queue.
 ///
 + (void)getSettingsWithCompletionHandler:(void (^ _Nonnull)(FairmaticSettings * _Nonnull))completionHandler;
@@ -458,7 +461,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Start Fairmatic insurance period 1 in the SDK.
 /// A manual trip of trackingId will be started immediately on this call.
 /// If period 1 is already in progress with the same trackingId, this call will be a no-op.
-/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the user
+/// \param trackingId An identifier which allows identifying this drive uniquely. This drive identifier must be unique for the
+/// user
 ///
 /// \param completionHandler A block object to be executed when the task finishes.
 /// This block has no return value and two arguments:
@@ -510,6 +514,48 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 /// Refer to <code>FairmaticError</code> for more details on the errors.
 ///
 + (void)stopPeriod:(void (^ _Nullable)(BOOL, NSError * _Nullable))completionHandler;
+/// Open the incident reporting web page in the default browser of the device.
+/// The drivers can use this web page to report incidents that they have encountered while driving.
+/// As this webpage contains functionality related to camera, microphone, speech transcription and location, this API will
+/// attempt to open the webpage in the default browser of the device so that the user can grant the required permissions to the
+/// browser instead of the app.
+/// However, if the app has already been granted the required permissions, then the webpage can be opened in an in-app browser.
+/// In that case, please use the <code>Fairmatic/getIncidentReportingURL(completionHandler:)</code> method to get the URL of the incident
+/// reporting page and then open it in an in-app browser.
+/// <blockquote>
+/// Note: This method will open the incident reporting page in the default browser of the device, so that the user can grant
+/// the required permissions to the browser instead of the app when reporting incidents. Please make sure you have set up the
+/// SDK using the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> method before calling this method, else you will get <code>FairmaticError/notSetup</code> error.
+///
+/// </blockquote>
+/// \param completionHandler A block object to be executed on completion of the operation. This block has no return value
+/// and one argument: an optional error that indicates if the operation was successful or not. If the operation is successful,
+/// the error will be <code>nil</code>. If there is an error, it will contain a valid <code>FairmaticError</code>.
+///
++ (void)openIncidentReportingWebPageWithCompletionHandler:(void (^ _Nonnull)(NSError * _Nullable))completionHandler;
+/// Get the URL of the incident reporting web page. The URL returned can be used to open the incident reporting page in an
+/// in-app browser / webview. Please note that this URL can only be used if the app has already been granted the required
+/// permissions to access the camera, microphone, speech transcription and location. If the app does not have the required
+/// permissions, then it is recommended to open the incident reporting page in the default browser of the device using the
+/// <code>Fairmatic/openIncidentReportingWebPage(completionHandler:)</code> method.
+/// Please note that the URL returned by this method is valid only for a limited time and should not be cached or stored for
+/// long-term use. Instead, it should be fetched each time you need to open the incident reporting page in an in-app browser
+/// using this method.
+/// <blockquote>
+/// Note: The URL returned by this method is valid only for a limited time and should not be cached or stored for long-term
+/// use. Instead, it should be fetched each time you need to open the incident reporting page in an in-app browser. Please make
+/// sure you have set up the SDK using the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> method before calling this method, else you will get <code>FairmaticError/notSetup</code> error.
+///
+/// </blockquote>
+/// \param completionHandler A block object to be executed on completion of the operation. This block has two arguments:
+/// an optional URL that contains the incident reporting page URL as <code>String</code> and an optional error that indicates if the
+/// operation was
+/// successful or not. If the operation is successful, the <code>String</code> URL will be non-nil and the error will be nil. If there is
+/// an error,
+/// the URL will be nil and the error will contain a valid <code>FairmaticError</code>.
+/// The URL string can be used to construct a <code>URL</code> object and then open it in an in-app browser / webview.
+///
++ (void)getIncidentReportingURLWithCompletionHandler:(void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable))completionHandler;
 @end
 
 /// Error returned as code of <code>NSError</code> from <code>Fairmatic</code> public APIs in case of
@@ -630,8 +676,17 @@ typedef SWIFT_ENUM_NAMED(NSInteger, FairmaticError, "FairmaticError", open) {
 /// progress when the method was called`.
   FairmaticErrorSetupAlreadyInProgress = 1005,
 /// This error is thrown by the <code>Fairmatic/setupWith(configuration:completionHandler:)</code> API when the account is not
-/// provisioned in the Fairmatic system. Pleae contact Fairmatic support team with your SDK key.
+/// provisioned in the Fairmatic system. Please contact Fairmatic support team with your SDK key.
   FairmaticErrorAccountNotProvisioned = 1006,
+/// This error is thrown by the <code>Fairmatic/getIncidentReportingURL(completionHandler:)</code> and
+/// <code>Fairmatic/openIncidentReportingWebPage(completionHandler:)</code> APIs when the current driver does not have an associated
+/// driver profile in the Fairmatic system. Please contact Fairmatic support team with your SDK key and driverId.
+  FairmaticErrorDriverNotFound = 1007,
+/// This error is thrown by the <code>Fairmatic/getIncidentReportingURL(completionHandler:)</code> and
+/// <code>Fairmatic/openIncidentReportingWebPage(completionHandler:)</code> APIs when the incident reporting feature is not enabled for
+/// the organization.
+/// Please contact Fairmatic support team with your SDK key and driverId.
+  FairmaticErrorIncidentReportingFeatureNotEnabled = 1009,
 };
 static NSString * _Nonnull const FairmaticErrorDomain = @"FairmaticSDK.FairmaticError";
 
