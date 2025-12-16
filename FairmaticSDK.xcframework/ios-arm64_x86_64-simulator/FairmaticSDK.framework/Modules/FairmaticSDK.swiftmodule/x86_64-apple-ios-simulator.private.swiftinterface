@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FairmaticSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import BackgroundTasks
 import CoreData
 import DriveKitCoreModule
@@ -35,16 +35,20 @@ import _SwiftConcurrencyShims
   case accountNotProvisioned = 1006
   case driverNotFound = 1007
   case incidentReportingFeatureNotEnabled = 1009
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
   public static var _nsErrorDomain: Swift.String {
     get
   }
@@ -54,7 +58,9 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
   case activityPermissionNotAuthorized = 1
   case locationAccuracyAuthorizationReduced = 2
   case locationServiceOff = 3
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -68,7 +74,9 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
   case unknown
   case silentPushNotification
   case backgroundProcessing
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -86,14 +94,18 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
   @objc deinit
 }
 @objc(FairmaticDriverAttributes) public class DriverAttributes : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(firstName: Swift.String, lastName: Swift.String, email: Swift.String?, phoneNumber: Swift.String?)
+  #endif
   @objc deinit
 }
 @objc(FairmaticInsurancePeriod) public enum InsurancePeriod : Swift.Int {
   case period1
   case period2
   case period3
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -102,23 +114,43 @@ extension FairmaticSDK.FairmaticError : Foundation.LocalizedError {
 public typealias InsuranceAPICompletionHandler = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13.0, *)
 @objc(Fairmatic) final public class Fairmatic : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func setupWith(configuration: FairmaticSDK.Configuration, completionHandler handler: ((_ success: Swift.Bool, _ error: (any Swift.Error)?) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func teardown(completionHandler handler: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func wipeOut(completion: (((any Swift.Error)?) -> Swift.Void)?)
+  #endif
   @objc public static var buildVersion: Swift.String {
     @objc get
   }
   @objc public static func getSettings(completionHandler: @escaping (FairmaticSDK.Settings) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func logSDKHealth(_ reason: FairmaticSDK.SDKHealthReason, completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 extension FairmaticSDK.Fairmatic {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func startDriveWithPeriod1(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func startDriveWithPeriod2(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func startDriveWithPeriod3(_ trackingId: Swift.String, completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func stopPeriod(_ completionHandler: FairmaticSDK.InsuranceAPICompletionHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func openIncidentReportingWebPage(completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func getIncidentReportingURL(completionHandler: @escaping (Swift.String?, (any Swift.Error)?) -> Swift.Void)
+  #endif
 }
 extension FairmaticSDK.FairmaticError : Swift.Equatable {}
 extension FairmaticSDK.FairmaticError : Swift.Hashable {}
